@@ -98,6 +98,12 @@ public class AdminCommand extends CommandBase {
 		commands.put("reloadgov", CivSettings.localize.localizedString("adcmd_reloadgovDesc"));
 		commands.put("reloadac", CivSettings.localize.localizedString("adcmd_reloadacDesc"));
 		commands.put("heartbeat", CivSettings.localize.localizedString("adcmd_heartbeatDesc"));
+		commands.put("mob", "Mob management commands");
+	}
+	
+	public void mob_cmd() {
+		AdminMobCommand cmd = new AdminMobCommand();	
+		cmd.onCommand(sender, null, "mob", this.stripArgs(args, 1));
 	}
 	
 	public void reloadgov_cmd() throws FileNotFoundException, IOException, InvalidConfigurationException, InvalidConfiguration {
