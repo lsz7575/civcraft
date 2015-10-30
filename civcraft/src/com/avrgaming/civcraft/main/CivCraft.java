@@ -303,17 +303,24 @@ public final class CivCraft extends JavaPlugin {
 		} else {
 			CivLog.warning("NoCheatPlus not found, not registering NCP hooks. This is fine if you're not using NCP.");
 		}
-
-		MobLib.registerAllEntities();
+		if (CivSettings.customMobs) {
+			MobLib.registerAllEntities();
+		}
+		
 		startTimers();
-		MobSpawner.register();
+		
+		if (CivSettings.customMobs)	{
+			MobSpawner.register();
+		}
 				
 		//creativeInvPacketManager.init(this);		
 	}
 	
 	@Override
 	public void onDisable() {
+		if (CivSettings.customMobs)	{
 		MobSpawner.despawnAll();
+		}
 	}
 	
 	public boolean hasPlugin(String name) {

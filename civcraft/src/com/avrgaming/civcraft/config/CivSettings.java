@@ -196,6 +196,10 @@ public class CivSettings {
 	public static double emerald_rate;
 	public static double startingCoins;
 	
+	public static boolean customMobs;
+	public static boolean vanillaMobs;
+	public static boolean spawnerMobs;
+	
 	public static ArrayList<String> kitItems = new ArrayList<String>();
 	public static HashMap<Integer, ConfigRemovedRecipes> removedRecipies = new HashMap<Integer, ConfigRemovedRecipes>();
 	public static HashSet<Material> restrictedUndoBlocks = new HashSet<Material>();
@@ -283,6 +287,10 @@ public class CivSettings {
 		diamond_rate = CivSettings.getDouble(civConfig, "ore_rates.diamond");
 		emerald_rate = CivSettings.getDouble(civConfig, "ore_rates.emerald");
 		startingCoins = CivSettings.getDouble(civConfig, "global.starting_coins");
+
+		customMobs = CivSettings.getBoolean(civConfig, "global.mobs_custom");
+		vanillaMobs = CivSettings.getBoolean(civConfig, "global.mobs_vanilla");
+		spawnerMobs = CivSettings.getBoolean(civConfig, "global.mobs_spawner");
 		
 		alwaysCrumble.add(CivData.BEDROCK);
 		alwaysCrumble.add(CivData.COAL_BLOCK);
@@ -650,6 +658,15 @@ public class CivSettings {
 		}
 		
 		double data = cfg.getDouble(path);
+		return data;
+	}
+	
+	public static boolean getBoolean(FileConfiguration cfg, String path) throws InvalidConfiguration {
+		if (!cfg.contains(path)) {
+			throw new InvalidConfiguration("Could not get configuration double "+path);
+		}
+		
+		boolean data = cfg.getBoolean(path);
 		return data;
 	}
 

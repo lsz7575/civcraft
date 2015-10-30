@@ -60,6 +60,15 @@ global:
    # Attempt to validate structures to make sure they're not floating.
    structure_validation: 'true'
 
+   #Enable Custom mobs
+   mobs_custom: false
+
+   #Enable Vanilla mobs
+   mobs_vanilla: true
+
+   #Enable Vanilla Spawners
+   mobs_spawner: true
+
 civ:
     # Amount of coins required to start a civilization
     cost: 100000.0

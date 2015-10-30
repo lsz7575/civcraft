@@ -57,6 +57,7 @@ public class Yobo extends CommonCustomMob implements ICustomMob {
 		    this.addDrop("mat_forged_clay", 0.1);
 		    this.addDrop("mat_crafted_reeds", 0.1);
 		    this.addDrop("mat_crafted_sticks", 0.1);
+		    this.addVanillaDrop(367, (short)0, 0.7);
 		    this.coinDrop(1, 25);
 			break;
 			
@@ -71,6 +72,7 @@ public class Yobo extends CommonCustomMob implements ICustomMob {
 		    this.addDrop("mat_steel_ingot", 0.05);
 		    this.addDrop("mat_varnish", 0.01);
 		    this.addDrop("mat_sticky_resin", 0.01);
+		    this.addVanillaDrop(367, (short)0, 0.7);
 		    this.coinDrop(10, 50);
 		    break;
 		    
@@ -85,6 +87,7 @@ public class Yobo extends CommonCustomMob implements ICustomMob {
 		    this.addDrop("mat_carbide_steel_ingot", 0.05);
 		    this.addDrop("mat_sticky_resin", 0.1);
 		    this.addDrop("mat_smithy_resin", 0.01);
+		    this.addVanillaDrop(367, (short)0, 0.8);
 		    this.coinDrop(20, 80);
 			break;
 			
@@ -99,6 +102,7 @@ public class Yobo extends CommonCustomMob implements ICustomMob {
 		    this.addDrop("mat_tungsten_ingot", 0.05);
 		    this.addDrop("mat_sticky_resin", 0.1);
 		    this.addDrop("mat_smithy_resin", 0.01);
+		    this.addVanillaDrop(367, (short)0, 0.9);
 		    this.coinDrop(20, 150);
 			break;
 		default:

@@ -114,7 +114,10 @@ public class PlayerListener implements Listener {
 		
 		CivGlobal.playerFirstLoginMap.put(event.getPlayer().getName(), new Date());
 		PlayerLocationCacheUpdate.playerQueue.add(event.getPlayer().getName());
-		MobSpawnerTimer.playerQueue.add((event.getPlayer().getName()));
+		
+		if (CivSettings.customMobs)	{
+			MobSpawnerTimer.playerQueue.add((event.getPlayer().getName()));
+		}
 	}
 	
 	@EventHandler(priority = EventPriority.MONITOR)
