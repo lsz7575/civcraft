@@ -18,6 +18,8 @@
  */
 package com.avrgaming.civcraft.config;
 
+import localize.Localize;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -34,8 +36,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
-
-import localize.Localize;
 
 import org.apache.commons.io.FileUtils;
 import org.bukkit.Material;
@@ -217,8 +217,15 @@ public class CivSettings {
 	public static final String HELL_PERKS = "civ.hellperks";
 	public static final String ELVEN_PERKS = "civ.elvenperks";
 	public static final String CULTIST_PERKS = "civ.cultistperks";
-	public static final String NIGHTLIGHTS_PERKS = "civ.nightlightperks";
+	public static final String MEDIEVAL_PERKS = "civ.medievalperks";
 	public static final String ECON = "civ.econ";
+	public static final String TPALLY = "civ.tp.ally";
+	public static final String TPNEUTRAL = "civ.tp.neutral";
+	public static final String TPHOSTILE = "civ.tp.hostile";
+	public static final String TPWAR = "civ.tp.war";
+	public static final String TPPEACE = "civ.tp.peace";
+	public static final String TPCAMP = "civ.tp.camp";
+	public static final String TPALL = "civ.tp.*";
 	public static final int MARKET_COIN_STEP = 5;
 	public static final int MARKET_BUYSELL_COIN_DIFF = 30;
 	public static final int MARKET_STEP_THRESHOLD = 2;
@@ -557,7 +564,12 @@ public class CivSettings {
 		switchItems.add(Material.ACACIA_DOOR);
 		switchItems.add(Material.DARK_OAK_DOOR);
 		
-		
+		// 1.7 additions
+		switchItems.add(Material.ACACIA_FENCE_GATE);
+		switchItems.add(Material.BIRCH_FENCE_GATE);
+		switchItems.add(Material.DARK_OAK_FENCE_GATE);
+		switchItems.add(Material.SPRUCE_FENCE_GATE);
+		switchItems.add(Material.JUNGLE_FENCE_GATE);
 	}
 	
 	private static void initBlockPlaceExceptions() {
@@ -613,6 +625,17 @@ public class CivSettings {
 		return ret;
 	}
 	
+	public static Boolean getBooleanStructure(String path) {
+		Boolean ret;
+		try {
+			ret = getBoolean(structureConfig, path);
+		} catch (InvalidConfiguration e) {
+			ret = false;
+			e.printStackTrace();
+		}
+		return ret;
+	}
+	
 	public static int getIntegerStructure(String path) {
 		Integer ret;
 		try {
@@ -663,7 +686,7 @@ public class CivSettings {
 	
 	public static boolean getBoolean(FileConfiguration cfg, String path) throws InvalidConfiguration {
 		if (!cfg.contains(path)) {
-			throw new InvalidConfiguration("Could not get configuration double "+path);
+			throw new InvalidConfiguration("Could not get configuration boolean "+path);
 		}
 		
 		boolean data = cfg.getBoolean(path);

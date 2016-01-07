@@ -69,6 +69,7 @@ import com.avrgaming.civcraft.exception.CivException;
 import com.avrgaming.civcraft.exception.InvalidConfiguration;
 import com.avrgaming.civcraft.exception.InvalidNameException;
 import com.avrgaming.civcraft.interactive.InteractiveResponse;
+import com.avrgaming.civcraft.items.units.Unit;
 import com.avrgaming.civcraft.lorestorage.LoreCraftableMaterial;
 import com.avrgaming.civcraft.lorestorage.LoreGuiItem;
 import com.avrgaming.civcraft.main.CivData;
@@ -169,12 +170,12 @@ public class Resident extends SQLObject {
 	private boolean insideArena = false;
 	private boolean isProtected = false;
 	
-	public HashMap<BlockCoord, SimpleBlock> previewUndo = null;
+	public ConcurrentHashMap<BlockCoord, SimpleBlock> previewUndo = null;
 	public LinkedHashMap<String, Perk> perks = new LinkedHashMap<String, Perk>();
 	private Date lastKilledTime = null;
 	private String lastIP = "";
 	private UUID uid;
-//	private boolean onWater = false;
+	private double walkingModifier = CivSettings.normal_speed;
 	private boolean onRoad = false;
 	public String debugTown;
 	
@@ -1043,7 +1044,7 @@ public class Resident extends SQLObject {
 	
 	public void undoPreview() {
 		if (this.previewUndo == null) {
-			this.previewUndo = new HashMap<BlockCoord, SimpleBlock>();
+			this.previewUndo = new ConcurrentHashMap<BlockCoord, SimpleBlock>();
 			return;
 		}
 		
@@ -1070,7 +1071,7 @@ public class Resident extends SQLObject {
 		}
 		
 		this.previewUndo.clear();
-		this.previewUndo = new HashMap<BlockCoord, SimpleBlock>();
+		this.previewUndo = new ConcurrentHashMap<BlockCoord, SimpleBlock>();
 	}
 
 	public boolean isShowInfo() {
@@ -1247,7 +1248,7 @@ public class Resident extends SQLObject {
 		
 	}
 	
-	public void giveAllNightLightsPerks() {
+	public void giveAllMedievalPerks() {
 		int perkCount;
 		try {
 			perkCount = CivSettings.getInteger(CivSettings.perkConfig, "system.free_perk_count");
@@ -1259,7 +1260,7 @@ public class Resident extends SQLObject {
 		for (ConfigPerk p : CivSettings.perks.values()) {
 			Perk perk = new Perk(p);
 			
-			if (perk.getIdent().startsWith("prem_tpl_nightlights") || perk.getIdent().startsWith("template_nightlights"))
+			if (perk.getIdent().startsWith("prem_tpl_medieval") || perk.getIdent().startsWith("template_medieval"))
 			{
 				perk.count = perkCount;
 				this.perks.put(perk.getIdent(), perk);
@@ -1436,10 +1437,10 @@ public class Resident extends SQLObject {
 						perkMessage += CivSettings.localize.localizedString("PlayerLoginAsync_perk_Roman")+", ";
 					}
 
-					if (player.hasPermission(CivSettings.NIGHTLIGHTS_PERKS))
+					if (player.hasPermission(CivSettings.MEDIEVAL_PERKS))
 					{
-						resident.giveAllNightLightsPerks();
-						perkMessage += "Night Lights"+", ";
+						resident.giveAllMedievalPerks();
+						perkMessage += CivSettings.localize.localizedString("PlayerLoginAsync_perk_Medieval")+", ";
 					}
 
 					perkMessage += CivSettings.localize.localizedString("PlayerLoginAsync_perksMsg2");
@@ -2013,5 +2014,39 @@ public class Resident extends SQLObject {
 	
 	public void setUUID(UUID uid) {
 		this.uid = uid;
+	}
+
+	public double getWalkingModifier() {
+		return walkingModifier;
+	}
+
+	public void setWalkingModifier(double walkingModifier) {
+		this.walkingModifier = walkingModifier;
+	}
+	
+	public void calculateWalkingModifier(Player player) {
+		double speed = CivSettings.normal_speed;
+		
+		/* Set speed from armor. */
+		if (Unit.isWearingFullComposite(player)) {
+			speed *= CivSettings.T4_leather_speed;
+		} else if (Unit.isWearingFullHardened(player)) {
+			speed *= CivSettings.T3_leather_speed;
+		} else if (Unit.isWearingFullRefined(player)) {
+			speed *= CivSettings.T2_leather_speed;
+		} else if (Unit.isWearingFullBasicLeather(player)) {
+			speed *= CivSettings.T1_leather_speed;
+		} else {
+			if (Unit.isWearingAnyDiamond(player)) {
+				speed *= CivSettings.T4_metal_speed;
+			} else if (Unit.isWearingAnyGold(player)) {
+				speed *= CivSettings.T3_metal_speed;
+			} else if (Unit.isWearingAnyChain(player)) {
+				speed *= CivSettings.T2_metal_speed;
+			} else if (Unit.isWearingAnyIron(player)) {
+				speed *= CivSettings.T1_metal_speed;
+			}
+		}
+		this.walkingModifier = speed;
 	}
 }

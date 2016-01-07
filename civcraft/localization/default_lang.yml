@@ -1879,7 +1879,7 @@ customItem_NoEnchanting: "Items cannot be enchanted with enchantment tables."
 customItem_restrictedItemsRemoved: "Restricted vanilla items in your inventory have been removed."
 customItem_enchantTableDisabled: "Cannot use enchantment tables. XP and Levels disabled in CivCraft."
 customItem_anvilDisabled: "Cannot use anvils. XP and Levels disabled in CivCraft."
-var_customItem_Pickup: "You've Picked up [%0] [%1]"
+var_customItem_Pickup: "You picked up [%0] [%1]"
 
 # =========================== Hero Chat Messages =========================
 hc_prefix_far: "[Far]:"
@@ -2510,8 +2510,6 @@ wall_firstLocation: "First location placed, place another to start building a wa
 
 # "Can only build a wall in 100.0 block segments, pick a closer location"
 var_wall_maxLength: "Can only build a wall in [%0] block segments, pick a closer location"
-var_wall_cannotAfford: "You cannot afford to pay [%0] [%1] for a wall %d blocks long."
-var_wall_buildSuccess: "Paid [%0] [%1] for a wall %d blocks long."
 wall_build_tooHigh: "Cannot build here, wall is too high."
 wall_build_recursionHalt: "ERROR: Building wall blocks exceeded recusion limit! Halted to keep server alive."
 wall_repair_invalid: "This wall is no longer valid and cannot be repaired. Walls can no longer overlap with protected structure blocks, demolish this wall instead."
@@ -2525,7 +2523,7 @@ wonder_alreadyExistsHere: "There is a wonder already here."
 wonder_undo_error: "Couldn't find undo data! Destroying structure instead."
 var_wonder_undo_broadcast: "The [%0] has been unbuild by the town of [%1] in the civilization of [%2] with the undo command!"
 var_wonder_startedByCiv: "The Civilization of [%0] has started construction of [%1] in the town of [%2]!"
-var_wonder_destroyed: "The [%0] owned by the town of [%1] has been destroyed! Any town may not build it again."
+var_wonder_destroyed: "The [%0] owned by the town of [%1] has been destroyed! Any town may now build it again."
 wonder_unknwon_type: "Unknown wonder type:"
 var_colossus_generatedCoins: "The Colossus generated [%0] [%1] from [%2] culture chunks across the civ."
 var_colosseum_generatedCoins: "The Colosseum generated [%0] [%1] from ticket sales in [%2] towns across the world."
@@ -2640,7 +2638,7 @@ var_daily_townTaxes: "Collected [%0] [%1] in town taxes."
 effectEvent_noTownHall: "Your town does not have a town hall! Structures have no effect!"
 var_effectEvent_convertBeakers: "Converted [%0] beakers into [%1] culture as we are not research any new technologies."
 
-var_syncTrade_payout: "Generated [%0] from trade. [%0]"
+var_syncTrade_payout: "Generated [%0] from trade."
 
 
 # =========================== Tutorial Messages =========================
@@ -2784,6 +2782,9 @@ var_buildable_notEnoughWater: "Cannot build [%0] here, you need to be in a major
 var_cmd_civ_info_daysTillVictoryNew: "The Civilization of [%0] is [%1] days away from a [%2] victory!"
 missionBook_pirate_errorImmunity: "You cannot pirate from this fishing boat because it is guarded by the Grand Ship Ingermanland"
 
+var_wall_cannotAfford: "You cannot afford to pay [%0] [%1] for a wall [%2] blocks long."
+var_wall_buildSuccess: "Paid [%0] [%1] for a wall [%2] blocks long."
+
 # =========================== Fish Hatchery =========================
 adcmd_lag_fishHatcherDesc: "Toggles Fish Hatcheries globally."
 adcmd_lag_fishHatchery: "Fish Hatcheries enabled:"
@@ -2815,3 +2816,23 @@ var_tradeship_taxesPaid: "Paid [%0] [%1] in taxes from Trade Ship Income"
 # =========================== END 1.75 =========================
 # ----------------------------------------------------------------
 
+# ----------------------------------------------------------------
+# =========================== BEGIN 1.76 =========================
+adcmd_lag_speedCheckOnChunk: "Toggles speed check updates to Chunks or always"
+
+adcmd_lag_SpeedCheck: "Speed Check on Chunk enabled:"
+var_buildable_tooCloseToCannonShip: "Cannot build here. Too close to another Cannon Ship at location [%0]"
+var_war_mostLethal: "Most Lethal: [%0]"
+war_wartimeSkippedHeading: "WarTime Has Been Skipped, No Civs at War."
+
+PlayerLoginAsync_perk_Medieval: "Medieval"
+adcmd_build_changeNearestDesc: "[town] [Theme] Change the nearest structure in the town to the entered template Theme. Confirmation is required."
+
+var_adcmd_build_wouldChangeTheme: "Would change the [%0] at location [%1] to the [%2] theme. Are you sure? Type '/ad changenearest [town] [theme] yes' to confirm."
+adcmd_build_wouldChangeTheme_NoTheme: "Please enter a theme, for example: default, aztec, roman"
+
+newItemLore_Defense: "Defense Bonus"
+capitol_Sign_noPermission: "You must be a Mayor, Leader, Advisor, or Assistant to change the respawn Town."
+
+# =========================== END 1.76 =========================
+# ----------------------------------------------------------------

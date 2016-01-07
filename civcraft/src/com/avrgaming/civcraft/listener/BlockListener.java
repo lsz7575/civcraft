@@ -103,12 +103,14 @@ import com.avrgaming.civcraft.road.Road;
 import com.avrgaming.civcraft.road.RoadBlock;
 import com.avrgaming.civcraft.structure.Buildable;
 import com.avrgaming.civcraft.structure.BuildableLayer;
+import com.avrgaming.civcraft.structure.CannonShip;
 import com.avrgaming.civcraft.structure.CannonTower;
 import com.avrgaming.civcraft.structure.Farm;
 import com.avrgaming.civcraft.structure.Pasture;
 //import com.avrgaming.civcraft.structure.Temple;
 import com.avrgaming.civcraft.structure.Wall;
 import com.avrgaming.civcraft.structure.farm.FarmChunk;
+import com.avrgaming.civcraft.structure.wonders.Battledome;
 import com.avrgaming.civcraft.structure.wonders.GrandShipIngermanland;
 import com.avrgaming.civcraft.threading.CivAsyncTask;
 import com.avrgaming.civcraft.threading.TaskMaster;
@@ -303,11 +305,11 @@ public class BlockListener implements Listener {
 				cfc.setHit(true);
 				cfc.destroy(event.getDamager());
 				Buildable whoFired = cfc.getWhoFired();
-				if (whoFired.getConfigId().equals("s_cannontower"))
-				{
+				if (whoFired.getConfigId().equals("s_cannontower")) {
 					event.setDamage((double)((CannonTower)whoFired).getDamage());
-				} else if (whoFired.getConfigId().equals("w_grand_ship_ingermanland"))
-				{
+				} else if (whoFired.getConfigId().equals("s_cannonship")) {
+					event.setDamage((double)((CannonShip)whoFired).getDamage());
+				} else if (whoFired.getConfigId().equals("w_grand_ship_ingermanland")) {
 					event.setDamage((double)((GrandShipIngermanland)whoFired).getCannonDamage());
 				}
 			}
@@ -414,6 +416,12 @@ public class BlockListener implements Listener {
 
 		if (tc.perms.isMobs() == false) {
 			if (event.getSpawnReason().equals(SpawnReason.CUSTOM)) {
+				return;
+			}
+			ChunkCoord coord = new ChunkCoord(event.getEntity().getLocation());
+			Battledome battledome = Battledome.battledomeChunks.get(coord);
+
+			if (battledome != null) {
 				return;
 			}
 
@@ -1124,6 +1132,12 @@ public class BlockListener implements Listener {
 					case JUNGLE_DOOR:
 					case ACACIA_DOOR:
 					case DARK_OAK_DOOR:
+                    case ACACIA_FENCE_GATE:
+                    case BIRCH_FENCE_GATE:
+                    case DARK_OAK_FENCE_GATE: 
+                    case FENCE_GATE:
+                    case SPRUCE_FENCE_GATE:
+                    case JUNGLE_FENCE_GATE: 
 						return;
 					default:
 						break;
@@ -1408,6 +1422,11 @@ public class BlockListener implements Listener {
 		Pasture pasture = Pasture.pastureEntities.get(event.getEntity().getUniqueId());
 		if (pasture != null) {
 			pasture.onEntityDeath(event.getEntity());
+		}
+		
+		Battledome battledome = Battledome.battledomeEntities.get(event.getEntity().getUniqueId());
+		if (battledome != null) {
+			battledome.onEntityDeath(event.getEntity());
 		}
 		return;
 

@@ -38,6 +38,7 @@ import com.avrgaming.civcraft.main.CivGlobal;
 import com.avrgaming.civcraft.main.CivLog;
 import com.avrgaming.civcraft.main.CivMessage;
 import com.avrgaming.civcraft.object.Resident;
+import com.avrgaming.civcraft.object.StructureSign;
 import com.avrgaming.civcraft.object.Town;
 import com.avrgaming.civcraft.road.Road;
 import com.avrgaming.civcraft.template.Template;
@@ -239,6 +240,13 @@ public class Structure extends Buildable {
 				struct = (Structure) new Capitol(rs);
 			}
 			break;
+		case "s_arrowship":
+			if (rs == null) {
+				struct = (ArrowShip) new ArrowShip(center, id, town);
+			} else {
+				struct = (ArrowShip) new ArrowShip(rs);
+			}
+			break;
 		case "s_arrowtower":
 			if (rs == null) {
 				struct = (Structure) new ArrowTower(center, id, town);
@@ -246,11 +254,25 @@ public class Structure extends Buildable {
 				struct = (Structure) new ArrowTower(rs);
 			}
 			break;
+		case "s_cannonship":
+			if (rs == null) {
+				struct = (CannonShip) new CannonShip(center, id, town);
+			} else {
+				struct = (CannonShip) new CannonShip(rs);
+			}
+			break;
 		case "s_cannontower":
 			if (rs == null) {
 				struct = (Structure) new CannonTower(center, id, town);
 			} else {
 				struct = (Structure) new CannonTower(rs);
+			}
+			break;
+		case "s_scoutship":
+			if (rs == null) {
+				struct = (ScoutShip) new ScoutShip(center, id, town);
+			} else {
+				struct = (ScoutShip) new ScoutShip(rs);
 			}
 			break;
 		case "s_scouttower":
@@ -464,6 +486,63 @@ public class Structure extends Buildable {
 		hashmap.put("template_z", this.getTemplateZ());
 		SQL.updateNamedObject(this, hashmap, TABLE_NAME);
 	}
+	
+	public void deleteSkipUndo() throws SQLException {
+		super.delete();
+		
+		if (this.getTown() != null) {
+			/* Release trade goods if we are a trade outpost. */
+			if (this instanceof TradeOutpost) {
+				//TODO move to trade outpost delete..
+				TradeOutpost outpost = (TradeOutpost)this;
+				
+				if (outpost.getGood() != null) {
+					outpost.getGood().setStruct(null);
+					outpost.getGood().setTown(null);
+					outpost.getGood().setCiv(null);
+					outpost.getGood().save();
+				}
+			}
+			
+			if (!(this instanceof Wall || this instanceof FortifiedWall || this instanceof Road))
+			{
+				/* Remove StructureSigns */
+				for (StructureSign sign : this.getSigns()) {
+					sign.delete();
+				}
+				try {
+					this.undoFromTemplate();	
+				} catch (IOException | CivException e1) {
+					e1.printStackTrace();
+					this.fancyDestroyStructureBlocks();
+				}
+				CivGlobal.removeStructure(this);
+				this.getTown().removeStructure(this);
+				this.unbindStructureBlocks();
+			} else {
+				CivGlobal.removeStructure(this);
+				this.getTown().removeStructure(this);
+				this.unbindStructureBlocks();
+				if (this instanceof Road)
+				{
+					Road road = (Road)this;
+					road.deleteOnDisband();
+				} else if (this instanceof Wall)
+				{
+					Wall wall = (Wall)this;
+					wall.deleteOnDisband();
+				}else if (this instanceof FortifiedWall)
+				{
+					FortifiedWall wall = (FortifiedWall)this;
+					wall.deleteOnDisband();
+				}
+			}
+						
+			
+		}
+		SQL.deleteNamedObject(this, TABLE_NAME);
+	}
+	
 	
 	@Override
 	public void delete() throws SQLException {

@@ -60,7 +60,6 @@ import org.bukkit.util.Vector;
 import com.avrgaming.civcraft.camp.Camp;
 import com.avrgaming.civcraft.config.CivSettings;
 import com.avrgaming.civcraft.config.ConfigTechPotion;
-import com.avrgaming.civcraft.items.units.Unit;
 import com.avrgaming.civcraft.items.units.UnitItemMaterial;
 import com.avrgaming.civcraft.items.units.UnitMaterial;
 import com.avrgaming.civcraft.lorestorage.LoreMaterial;
@@ -128,13 +127,19 @@ public class PlayerListener implements Listener {
 			CivLog.info("[TELEPORT]"+" "+event.getPlayer().getName()+" "+"to:"+event.getTo().getBlockX()+","+event.getTo().getBlockY()+","+event.getTo().getBlockZ()+
 					" "+"from:"+event.getFrom().getBlockX()+","+event.getFrom().getBlockY()+","+event.getFrom().getBlockZ());
 			Player player = event.getPlayer();
-			if (!player.isOp() && !player.hasPermission("civ.admin")) {
+			if (!player.isOp() && !( player.hasPermission("civ.admin") || player.hasPermission(CivSettings.TPALL) ) ) {
 				CultureChunk cc = CivGlobal.getCultureChunk(new ChunkCoord(event.getTo()));
 				Camp toCamp = CivGlobal.getCampFromChunk(new ChunkCoord(event.getTo()));
 				Resident resident = CivGlobal.getResident(player);
 				if (cc != null && cc.getCiv() != resident.getCiv() && !cc.getCiv().isAdminCiv()) {
 					Relation.Status status = cc.getCiv().getDiplomacyManager().getRelationStatus(player);
-					if (!status.equals(Relation.Status.ALLY)) {
+					if (!(status.equals(Relation.Status.ALLY) && player.hasPermission(CivSettings.TPALLY) )
+							&& !(status.equals(Relation.Status.NEUTRAL) && player.hasPermission(CivSettings.TPNEUTRAL)) 
+							&& !(status.equals(Relation.Status.HOSTILE) && player.hasPermission(CivSettings.TPHOSTILE))
+							&& !(status.equals(Relation.Status.PEACE) && player.hasPermission(CivSettings.TPWAR))
+							&& !(status.equals(Relation.Status.WAR) && player.hasPermission(CivSettings.TPWAR))
+							&& !player.hasPermission(CivSettings.TPALL)
+							) {
 						/* 
 						 * Deny telportation into Civ if not allied.
 						 */
@@ -149,7 +154,7 @@ public class PlayerListener implements Listener {
 					}
 				}
 				
-				if (toCamp != null && toCamp != resident.getCamp()) {
+				if (toCamp != null && toCamp != resident.getCamp() && !player.hasPermission(CivSettings.TPCAMP)) {
 						/* 
 						 * Deny telportation into Civ if not allied.
 						 */
@@ -186,78 +191,27 @@ public class PlayerListener implements Listener {
 		
 	private void setModifiedMovementSpeed(Player player) {
 		/* Change move speed based on armor. */
-		double speed = CivSettings.normal_speed;
-		
-		/* Set speed from armor. */
-		if (Unit.isWearingFullComposite(player)) {
-			speed *= CivSettings.T4_leather_speed;
-		}
-		
-		if (Unit.isWearingFullHardened(player)) {
-			speed *= CivSettings.T3_leather_speed;
-		}
-		
-		if (Unit.isWearingFullRefined(player)) {
-			speed *= CivSettings.T2_leather_speed;
-		}
-		
-		if (Unit.isWearingFullBasicLeather(player)) {
-			speed *= CivSettings.T1_leather_speed;
-		}
-		
-		if (Unit.isWearingAnyIron(player)) {
-			speed *= CivSettings.T1_metal_speed;
-		}
-		
-		if (Unit.isWearingAnyChain(player)) {
-			speed *= CivSettings.T2_metal_speed;
-		}
-		
-		if (Unit.isWearingAnyGold(player)) {
-			speed *= CivSettings.T3_metal_speed;
-		}
-		
-		if (Unit.isWearingAnyDiamond(player)) {
-			speed *= CivSettings.T4_metal_speed;
-		}
-		
+		double speed;
 		Resident resident = CivGlobal.getResident(player);
-//		if (resident != null && resident.isOnWater()) {	
-//			if (player.getVehicle() != null && player.getVehicle().getType().equals(EntityType.BOAT)) {
-//				Vector vec = player.getVehicle().getVelocity();
-//				double yComp = vec.getY();
-//				
-//				vec.multiply(CivGlobal.LIGHTHOUSE_WATER_BOAT_SPEED);
-//				vec.setY(yComp); /* Do not multiply y velocity. */
-//				
-//				player.getVehicle().setVelocity(vec);
-//			} else {
-////				speed *= CivGlobal.LIGHTHOUSE_WATER_PLAYER_SPEED;
-////				if (!player.getAllowFlight()){
-////				player.setAllowFlight(true);
-////				player.setFlying(true);
-////				}
-//			}
-//		} else 
-		if (resident != null && resident.isOnRoad()) {	
-			if (player.getVehicle() != null && player.getVehicle().getType().equals(EntityType.HORSE)) {
-				Vector vec = player.getVehicle().getVelocity();
-				double yComp = vec.getY();
-				
-				vec.multiply(Road.ROAD_HORSE_SPEED);
-				vec.setY(yComp); /* Do not multiply y velocity. */
-				
-				player.getVehicle().setVelocity(vec);
-			} else {
-				speed *= Road.ROAD_PLAYER_SPEED;
+		if (resident != null)
+		{
+			speed = resident.getWalkingModifier();
+			if (resident.isOnRoad()) {	
+				if (player.getVehicle() != null && player.getVehicle().getType().equals(EntityType.HORSE)) {
+					Vector vec = player.getVehicle().getVelocity();
+					double yComp = vec.getY();
+					
+					vec.multiply(Road.ROAD_HORSE_SPEED);
+					vec.setY(yComp); /* Do not multiply y velocity. */
+					
+					player.getVehicle().setVelocity(vec);
+				} else {
+					speed *= Road.ROAD_PLAYER_SPEED;
+				}
 			}
+		} else {
+			speed =CivSettings.normal_speed;
 		}
-//		else{
-//			if (player.getAllowFlight()){
-//			player.setAllowFlight(false);
-//			player.setFlying(false);
-//			}
-//		}
 		
 		player.setWalkSpeed((float) Math.min(1.0f, speed));
 	}
@@ -272,10 +226,11 @@ public class PlayerListener implements Listener {
 			event.getFrom().getBlockY() == event.getTo().getBlockY()) {
 			return;
 		}
-		
-		/* Test for enchants effecting movement. */
-		/* TODO can speed be set once? If so we should only calculate speed change when our armor changes. */
-		setModifiedMovementSpeed(event.getPlayer());
+		if (!CivGlobal.speedChunks)
+		{
+			/* Get the Modified Speed for the player. */
+			setModifiedMovementSpeed(event.getPlayer());
+		}
 				
 		ChunkCoord fromChunk = new ChunkCoord(event.getFrom());
 		ChunkCoord toChunk = new ChunkCoord(event.getTo());
@@ -283,6 +238,11 @@ public class PlayerListener implements Listener {
 		// Haven't moved chunks.
 		if (fromChunk.equals(toChunk)) {
 			return;
+		}
+		if (CivGlobal.speedChunks)
+		{
+			/* Get the Modified Speed for the player. */
+			setModifiedMovementSpeed(event.getPlayer());
 		}
 		
 		TaskMaster.asyncTask(PlayerChunkNotifyAsyncTask.class.getSimpleName(), 
