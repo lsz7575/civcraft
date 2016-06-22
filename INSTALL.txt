@@ -1,15 +1,15 @@
-Installing CivCraft can be a bit of a challenge so here are the basic steps in order.
+以下是插件安装需求以及安装步骤.
 
-Prereqs:
+安装需求:
 =========
-1) You have a working MySQL server and you know how to use it.
-2) You have Eclipse installed and can figure out how to compile CivCraft.jar from source.
-3) You understand how to install Bukkit plugins to a minecraft server.
+1) 一个MySQL数据库.
+2) Eclipse或其他的JAVA编译软件.
+3) Spigot1.8 核心服务端.
 
 
-Install Instructions:
+安装步骤:
 ======================
-1) Compile CivCraft.jar from source.
+1) 编译 CivCraft.jar .
     a) You must compile CivCraft.jar with the provided manifest file.
 Otherwise you'll get errors saying "BoneCP' class cannot be found.
     b) You will need to grab all of the library dependancies. I've included my
@@ -19,7 +19,7 @@ classpath so you'll be able to see the jar names.
    a) CivCraft requires TagAPI and Herochat. Install those plugins alongside it as well.
    b) WorldBorder is also required.
 
-3) Run the server once, CivCraft will fail to load but thats OK. Stop server and continue.
+3) 运行一次服务端，会出现报错，再关闭服务端.
 
 4) In the "<mc_server>/plugins/CivCraft" directory modify config.yml to point to two SQL databases.
    a) You first need a 'game' database to store local server information.
@@ -43,11 +43,11 @@ can use the following development perk DB information for now:
     username: 'cake'
     password: 'ddr2k0'
 
-5) Copy civcraft_data/lib to <mc_server>/plugins/CivCraft
+5) 复制 civcraft_data/lib 到 <服务端文件夹>/plugins/CivCraft
 
-6) Copy civcraft_data/data to <mc_server>/plugins/CivCraft/data
+6) 复制 civcraft_data/data 到 <服务端文件夹>/plugins/CivCraft/data
 
-7) Copy civcraft_data/templates to the <mc_server> directory.
+7) 复制 civcraft_data/templates 到 the <服务端文件夹> 根目录.
 
 8) Replace your server's bukkit.jar(or spigot.jar) with CivCraft's custom version: spigot-civcraft.jar
    If you fail to do this step, then creative mode will break custom civcraft items and civcraft's armor
@@ -58,12 +58,12 @@ can use the following development perk DB information for now:
 10) Launch server, hopefully it will start without any errors.
 
 
-Installing CivCraft dynmap:
+安装 CivCraft 动态地图扩展:
 ============================
-1) Compile civcraft_dymap from source.
+1) 编译 civcraft_dymap.jar .
 
-2) Install dynmap plugin.
+2) 安装 dynmap.jar 插件.
 
-3) Drop civcraft_dymap.jar into plugins directroy.
+3) 安装 civcraft_dymap.jar 插件.
 
 
