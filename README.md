@@ -2,9 +2,11 @@ MineTexas CivilizationCraft Minecraft Plugin Fork
 MineTexas 文明Craft 汉化版
 ========
 
-CivilizationCraft is a massive, server side Minecraft modification written for Bukkit. In CivilizationCraft, players band together to construct camps, towns, and civilizations which go on to research technology, engage in diplomacy, build wonders, and fight for world dominance. 
+1）需要自行编译；
+2）本人不会发布在非指定网站，请发布者自重；
+3）我没见过这么厚颜无耻的盗汉化资源狗。
 
-插件下载地址: http://www.minetexas.com/minecraft-civcraft-download.html
+插件下载地址: 待修订
 
 安装教程
 ==========================
@@ -26,4 +28,4 @@ Baka.wang
 
 附加信息
 ========================
-交流社区 http://civilizationcraft.net/
+交流社区 http://bbs.9wanmc.com/
