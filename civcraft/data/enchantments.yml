@@ -4,26 +4,26 @@
 
 enchants:
    - id: 'ench_fire_aspect'
-     name: 'Fire Aspect'
+     name: '火焰附加'
      cost: 50000.0
-     description: 'Adds fire aspect to your weapon.'
+     description: '为你的武器增加火焰伤害.'
      enchant_id: 'FIRE_ASPECT'
 
    - id: 'ench_fire_protection'
-     name: 'Fire Protection'
+     name: '防火保护'
      cost: 25000.0
-     description: 'Adds fire protection to your armor.'
+     description: '为你的防具增加火焰保护.'
      enchant_id: 'PROTECTION_FIRE'  
  
    - id: 'ench_flame'
-     name: 'Flame (Bow)'
+     name: '火矢'
      cost: 50000.0
-     description: 'Adds flame enchantment to your bow.'
+     description: '为你的弓箭增加火焰伤害.'
      enchant_id: 'ARROW_FIRE'
    
    - id: 'ench_punchout'
-     name: 'Punchout'
+     name: '冲击'
      cost: 20000.0
-     description: '% chance to do extra damage to a structure.'
+     description: '% 的几率对建筑造成额外伤害.'
      enchant_id: 'LoreEnhancementPunchout'
 
