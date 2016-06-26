@@ -25,7 +25,7 @@ MineTexas.com
 - Ataranlen (Nathan Stoltenberg) 插件开发
 
 Baka.wang
-- Mayomi 插件汉化, 插件汉化
+- Mayomi 插件汉化
 
 附加信息
 ========================
