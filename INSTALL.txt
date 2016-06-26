@@ -10,38 +10,18 @@
 安装步骤:
 ======================
 1) 编译 CivCraft.jar .
-    a) You must compile CivCraft.jar with the provided manifest file.
-Otherwise you'll get errors saying "BoneCP' class cannot be found.
-    b) You will need to grab all of the library dependancies. I've included my
-classpath so you'll be able to see the jar names.
 
-2) Put CivCraft.jar in your plugins directory.
-   a) CivCraft requires TagAPI and Herochat. Install those plugins alongside it as well.
-   b) WorldBorder is also required.
+2) 放置 CivCraft.jar 于插件文件夹.
+   a) CivCraft 需要安装 TagAPI 及 Herochat. 请先安装该插件.
+   b) WorldBorder 建议安装.
 
 3) 运行一次服务端，会出现报错，再关闭服务端.
 
-4) In the "<mc_server>/plugins/CivCraft" directory modify config.yml to point to two SQL databases.
-   a) You first need a 'game' database to store local server information.
-   b) Next you need a 'global' database to store global server information.
+4) 在 <服务端文件夹>/plugins/CivCraft 的 Config.yml 中修改插件数据库信息.
+   a) 需要 'game' 的数据库来存放游戏信息.
+   b) 需要 'global' 的数据库来存放全局信息.
 
-   The databases should be empty and upon start up, civcraft will populate and create the desired tables.
-   
-   c) Last you need to configure ther perks database for perk information. You
-can use the following development perk DB information for now:
-    hostname: 'atlas.civcraft.net'
-    port: '3306'
-    database: 'civ_cake_db'
-    username: 'cake'
-    password: 'ddr2k0'
-
-   c) Last you need to configure ther perks database for perk information. You
-can use the following development perk DB information for now:
-    hostname: 'atlas.civcraft.net'
-    port: '3306'
-    database: 'civ_cake_db'
-    username: 'cake'
-    password: 'ddr2k0'
+   开服之后自动创建表单.
 
 5) 复制 civcraft_data/lib 到 <服务端文件夹>/plugins/CivCraft
 
@@ -53,9 +33,9 @@ can use the following development perk DB information for now:
    If you fail to do this step, then creative mode will break custom civcraft items and civcraft's armor
    will be broken due to vanilla minecraft behavior.
 
-9) Modify your java launch options to give civcraft at least 2GB of memory.
+9) 建议最少分配 2G 内存给服务器.
 
-10) Launch server, hopefully it will start without any errors.
+10) 启动服务器即可.
 
 
 安装 CivCraft 动态地图扩展:
