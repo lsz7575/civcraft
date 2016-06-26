@@ -77,10 +77,10 @@ materials:
         - id: 'mat_carved_leather'
           item_id: 334
           item_data: 0
-          name: 'T1 Carved Leather'
+          name: '普通 雕刻皮革'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 334
                 data: 0
@@ -90,10 +90,10 @@ materials:
         - id: 'mat_refined_stone'
           item_id: 1
           item_data: 0
-          name: 'T1 Refined Stone'
+          name: '普通 精炼石'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 4
                 data: 0
@@ -103,10 +103,10 @@ materials:
         - id: 'mat_refined_stone_alt0'
           item_id: 1
           item_data: 0
-          name: 'T1 Refined Stone'
+          name: '普通 精炼石'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 1
                 data: 1
@@ -116,10 +116,10 @@ materials:
         - id: 'mat_refined_stone_alt1'
           item_id: 1
           item_data: 0
-          name: 'T1 Refined Stone'
+          name: '普通 精炼石'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 1
                 data: 3
@@ -129,10 +129,10 @@ materials:
         - id: 'mat_refined_stone_alt2'
           item_id: 1
           item_data: 0
-          name: 'T1 Refined Stone'
+          name: '普通 精炼石'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 1
                 data: 5
@@ -145,7 +145,7 @@ materials:
 #          name: 'Refined Gold'
 #          craftable: true
 #          shaped: false
-#          category: '<lightgreen>Tier 1 Materials'
+#          category: '<lightgreen>普通资源'
 #          ingredients:
 #              - type_id: 266
 #                data: 0
@@ -155,10 +155,10 @@ materials:
         - id: 'mat_refined_feathers'
           item_id: 406
           item_data: 0
-          name: 'T1 Packed Feathers'
+          name: '普通 填充羽毛'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 288
                 data: 0
@@ -168,10 +168,10 @@ materials:
         - id: 'mat_crafted_string'
           item_id: 287
           item_data: 0
-          name: 'T1 Crafted String'
+          name: '普通 精制线'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 287
                 data: 0
@@ -181,10 +181,10 @@ materials:
         - id: 'mat_refined_slime'
           item_id: 341
           item_data: 0
-          name: 'T1 Refined Slime'
+          name: '普通 精炼泥'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 341 
                 custom_id: 'mat_vanilla_slime'
@@ -198,7 +198,7 @@ materials:
 #          name: 'Forged Iron Ingot'
 #          craftable: true
 #          shaped: false
-#          category: '<lightgreen>Tier 1 Materials'
+#          category: '<lightgreen>普通资源'
 #          ingredients:
 #              - type_id: 265
 #                data: 0
@@ -208,12 +208,12 @@ materials:
         - id: 'mat_crafted_reeds'
           item_id: 338
           item_data: 0
-          name: 'T1 Crafted Reeds'
+          name: '普通 精制芦苇'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 0.5
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 338
                 data: 0
@@ -226,7 +226,7 @@ materials:
 #          name: 'Refined Coal'
 #          craftable: true
 #          shaped: false
-#          category: '<lightgreen>Tier 1 Materials'
+#          category: '<lightgreen>普通资源'
 #          ingredients:
 #              - type_id: 263
 #                data: 0
@@ -236,10 +236,10 @@ materials:
         - id: 'mat_crafted_sticks'
           item_id: 280
           item_data: 0
-          name: 'T1 Crafted Sticks'
+          name: '普通 精制木棒'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 280
                 data: 0
@@ -249,10 +249,10 @@ materials:
         - id: 'mat_refined_sulphur'
           item_id: 289
           item_data: 0
-          name: 'T1 Refined Sulphur'
+          name: '普通 精炼硫'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 289
                 data: 0
@@ -261,10 +261,10 @@ materials:
         - id: 'mat_compacted_sand'
           item_id: 24
           item_data: 1
-          name: 'T1 Compacted Sand'
+          name: '普通 细沙'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 12
                 data: -1
@@ -274,10 +274,10 @@ materials:
         - id: 'mat_forged_clay'
           item_id: 336
           item_data: 0
-          name: 'T1 Forged Clay'
+          name: '普通 粘土'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 337
                 data: 0
@@ -287,10 +287,10 @@ materials:
         - id: 'mat_refined_sugar'
           item_id: 353
           item_data: 0
-          name: 'T1 Refined Sugar'
+          name: '普通 精炼糖'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 353
                 data: 0
@@ -300,10 +300,10 @@ materials:
         - id: 'mat_refined_wart'
           item_id: 372
           item_data: 0
-          name: 'T1 Refined Wart'
+          name: '普通 精炼疣'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 372
                 data: 0
@@ -313,10 +313,10 @@ materials:
         - id: 'mat_forged_chromium'
           item_id: 265
           item_data: 0
-          name: 'T1 Forged Chromium'
+          name: '普通 铬'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 0
                 data: 0
@@ -327,10 +327,10 @@ materials:
         - id: 'mat_forged_tungsten'
           item_id: 133
           item_data: 0
-          name: 'T1 Forged Tungsten'
+          name: '普通 钨'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 0
                 data: 0
@@ -341,10 +341,10 @@ materials:
         - id: 'mat_refined_wood'
           item_id: 126
           item_data: 0
-          name: 'T1 Refined Wood'
+          name: '普通 精炼木'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 17
                 data: -1
@@ -354,10 +354,10 @@ materials:
         - id: 'mat_refined_wood_alt2'
           item_id: 126
           item_data: 0
-          name: 'T1 Refined Wood'
+          name: '普通 精炼木'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 162
                 data: -1
@@ -370,7 +370,7 @@ materials:
 #          name: 'Refined Diamonds'
 #          craftable: true
 #          shaped: false
-#          category: '<lightgreen>Tier 1 Materials'
+#          category: '<lightgreen>普通资源'
 #          ingredients:
 #              - type_id: 264 
 #                data: 0
@@ -383,12 +383,12 @@ materials:
           item_data: 0
           tradeable: true
           tradeValue: 0.5
-          name: 'Tungsten Ore'
+          name: '钨矿'
           components:
               - name: 'NoRightClick'
           craftable: false
           shaped: true
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
         
           # XXX Statically coded to drop from trommel 
         # Checked 10/8/13
@@ -397,10 +397,10 @@ materials:
           item_data: 0
           tradeable: true
           tradeValue: 0.1
-          name: 'Chromium Ore'
+          name: '铬矿'
           craftable: false
           shaped: true
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
 
 
 
@@ -411,12 +411,12 @@ materials:
         - id: 'mat_crafted_leather'
           item_id: 31
           item_data: 0
-          name: 'T2 Crafted Leather'
+          name: '罕见 合成皮革'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 1.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_carved_leather'
@@ -431,12 +431,12 @@ materials:
         - id: 'mat_decorative_jewels'
           item_id: 372
           item_data: 0
-          name: 'T2 Decorative Jewels'
+          name: '罕见 装饰珠宝'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 1.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 57
                 data: 0
@@ -446,12 +446,12 @@ materials:
         - id: 'mat_crushed_stone'
           item_id: 44
           item_data: 0
-          name: 'T2 Crushed Stone'
+          name: '罕见 碎石'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 1.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_refined_stone'
@@ -463,12 +463,12 @@ materials:
         - id: 'mat_jewelry_grade_gold'
           item_id: 322
           item_data: 0
-          name: 'T2 Jewelry Grade Gold'
+          name: '罕见 首级黄金'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 1400.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 41
                 data: 0
@@ -478,12 +478,12 @@ materials:
         - id: 'mat_milled_lumber'
           item_id: 53
           item_data: 0
-          name: 'T2 Milled Lumber'
+          name: '罕见 研磨木'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 1.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_refined_wood'
@@ -494,12 +494,12 @@ materials:
         - id: 'mat_woven_mesh_patch'
           item_id: 358
           item_data: 0
-          name: 'T2 Woven Mesh Patch'
+          name: '罕见 编织网'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 1.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_crafted_string'
@@ -518,12 +518,12 @@ materials:
         - id: 'mat_steel_ingot'
           item_id: 265
           item_data: 0
-          name: 'T2 Steel Ingot'
+          name: '罕见 铁锭'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 400.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 42
                 data: 0
@@ -540,12 +540,12 @@ materials:
         - id: 'mat_varnish'
           item_id: 384
           item_data: 0
-          name: 'T2 Varnish'
+          name: '罕见 清漆'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 1.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -566,12 +566,12 @@ materials:
         - id: 'mat_sticky_resin'
           item_id: 374
           item_data: 0
-          name: 'T2 Sticky Resin'
+          name: '罕见 粘性树脂'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 1.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -591,12 +591,12 @@ materials:
         - id: 'mat_clay_molding'
           item_id: 45
           item_data: 0
-          name: 'T2 Clay Molding'
+          name: '罕见 成型粘土'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 1.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_forged_clay'
@@ -616,12 +616,12 @@ materials:
         - id: 'mat_chromium_ingot'
           item_id: 399
           item_data: 0
-          name: 'T2 Chromium Ingot'
+          name: '罕见 铬锭'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 2.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_forged_chromium'
@@ -643,12 +643,12 @@ materials:
         - id: 'mat_aged_wood_stave'
           item_id: 280
           item_data: 0
-          name: 'T2 Aged Wood Stave'
+          name: '罕见 枯木棒'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 1.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_crafted_sticks'
@@ -667,12 +667,12 @@ materials:
         - id: 'mat_woven_threading'
           item_id: 420
           item_data: 0
-          name: 'T2 Woven Threading'
+          name: '罕见 编织线'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 1.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -689,10 +689,10 @@ materials:
         - id: 'mat_steel_sword_blade'
           item_id: 265
           item_data: 0
-          name: 'T2 Steel Sword Blade'
+          name: '罕见 钢剑刃'
           craftable: true
           shaped: false
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_steel_ingot'
@@ -707,10 +707,10 @@ materials:
         - id: 'mat_steel_sword_hilt'
           item_id: 280
           item_data: 0
-          name: 'T2 Steel Sword Hilt'
+          name: '罕见 钢剑柄'
           craftable: true
           shaped: false
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_steel_ingot'
@@ -733,12 +733,12 @@ materials:
         - id: 'mat_steel_plate'
           item_id: 148
           item_data: 0
-          name: 'T2 Steel Plate'
+          name: '罕见 钢板'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 400.0
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_steel_ingot'
@@ -762,12 +762,12 @@ materials:
         - id: 'mat_leather_straps'
           item_id: 32
           item_data: 0
-          name: 'T3 Leather Straps'
+          name: '稀有 皮带'
           craftable: true
           tradeable: true
           tradeValue: 5.0
           shaped: false
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_crafted_leather'
@@ -782,12 +782,12 @@ materials:
         - id: 'mat_clay_steel_cast'
           item_id: 343
           item_data: 0
-          name: 'T3 Clay Steel Casting'
+          name: '稀有 粘土钢铸件'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -812,12 +812,12 @@ materials:
         - id: 'mat_reinforced_braid'
           item_id: 287
           item_data: 0
-          name: 'T3 Reinforced Braid'
+          name: '稀有 钢筋编织'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_woven_threading'
@@ -836,12 +836,12 @@ materials:
         - id: 'mat_carbide_steel_ingot'
           item_id: 318
           item_data: 0
-          name: 'T3 Carbide Steel Ingot'
+          name: '稀有 合金钢锭'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 800.0
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_steel_ingot'
@@ -860,10 +860,10 @@ materials:
         - id: 'mat_longbow_stave'
           item_id: 280
           item_data: 0
-          name: 'T3 Longbow Stave'
+          name: '稀有 长弓木'
           craftable: true
           shaped: false
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_aged_wood_stave'
@@ -878,12 +878,12 @@ materials:
         - id: 'mat_feathered_lining'
           item_id: 288
           item_data: 0
-          name: 'T3 Feathered Lining'
+          name: '稀有 精纺羽毛'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_woven_mesh_patch'
@@ -902,12 +902,12 @@ materials:
         - id: 'mat_carbide_molding'
           item_id: 380
           item_data: 0
-          name: 'T3 Carbide Molding'
+          name: '稀有 硬质合金'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -928,12 +928,12 @@ materials:
         - id: 'mat_smithy_resin'
           item_id: 378
           item_data: 0
-          name: 'T3 Smithy Resin'
+          name: '稀有 树脂'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_sticky_resin'
@@ -951,12 +951,12 @@ materials:
         - id: 'mat_tungsten_ingot'
           item_id: 368
           item_data: 0
-          name: 'T3 Tungsten Ingot'
+          name: '稀有 钨锭'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -976,12 +976,12 @@ materials:
         - id: 'mat_clay_tungsten_casting'
           item_id: 368
           item_data: 0
-          name: 'T3 Clay Tungsten Casting'
+          name: '稀有 粘土钨铸件'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -1003,12 +1003,12 @@ materials:
         - id: 'mat_masonry_mortar'
           item_id: 45
           item_data: 0
-          name: 'T3 Masonry Mortar'
+          name: '稀有 砌筑砂浆'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_sticky_resin'
@@ -1023,10 +1023,10 @@ materials:
         - id: 'mat_royal_crown'
           item_id: 314
           item_data: 0
-          name: 'Royal Crown'
+          name: '王冠'
           craftable: true
           shaped: false
-          category: 'Special'
+          category: '特殊物品'
           components:
               - name: 'NoDurability'
           ingredients:
@@ -1046,10 +1046,10 @@ materials:
         - id: 'mat_proof_of_leadership'
           item_id: 347
           item_data: 0
-          name: 'Proof Of Leadership'
+          name: '领袖之令'
           craftable: true
           shaped: false
-          category: 'Special'
+          category: '特殊物品'
           components:
               - name: 'Tagged'
           ingredients:
@@ -1061,10 +1061,10 @@ materials:
         - id: 'mat_badge_of_leadership'
           item_id: 421
           item_data: 0
-          name: 'Badge Of Leadership'
+          name: '领袖之证'
           craftable: true
           shaped: false
-          category: 'Special'
+          category: '特殊物品'
           components:
               - name: 'Tagged'
           ingredients:
@@ -1076,10 +1076,10 @@ materials:
         - id: 'mat_token_of_leadership'
           item_id: 370
           item_data: 0
-          name: 'Token Of Leadership'
+          name: '领袖之印'
           craftable: false
           shaped: false
-          category: 'Special'
+          category: '特殊物品'
           components:
               - name: 'Tagged'
          
@@ -1087,10 +1087,10 @@ materials:
         - id: 'mat_chieftains_headdress'
           item_id: 302
           item_data: 0
-          name: 'Chieftains Headdress'
+          name: '酋长头饰'
           craftable: true
           shaped: false
-          category: 'Special'
+          category: '特殊物品'
           components:
               - name: 'NoDurability'
           ingredients:
@@ -1107,12 +1107,12 @@ materials:
         - id: 'mat_compacted_stone'
           item_id: 98
           item_data: 0
-          name: 'T3 Compacted Stone'
+          name: '稀有 压实碎石'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_crushed_stone'
@@ -1123,10 +1123,10 @@ materials:
         - id: 'mat_carbide_steel_sword_hilt'
           item_id: 280
           item_data: 0
-          name: 'T3 Carbide Steel Sword Hilt'
+          name: '稀有 合金钢剑柄'
           craftable: true
           shaped: false
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_clay_steel_cast'
@@ -1150,10 +1150,10 @@ materials:
         - id: 'mat_carbide_steel_sword_blade'
           item_id: 265
           item_data: 0
-          name: 'T3 Carbide Steel Sword Blade'
+          name: '稀有 合金钢剑刃'
           craftable: true
           shaped: false
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_clay_steel_cast'
@@ -1172,12 +1172,12 @@ materials:
         - id: 'mat_carbide_steel_plate'
           item_id: 265
           item_data: 0
-          name: 'T3 Carbide Steel Plate'
+          name: '稀有 合金钢板'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 800.0
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_sticky_resin'
@@ -1199,12 +1199,12 @@ materials:
         - id: 'mat_artisan_leather'
           item_id: 31
           item_data: 0
-          name: 'T4 Artisan Leather'
+          name: '史诗 手工皮革'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 10.0
-          category: '<gold>Tier 4 Materials'
+          category: '<gold>史诗资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_leather_straps'
@@ -1219,12 +1219,12 @@ materials:
         - id: 'mat_tungsten_plate'
           item_id: 405
           item_data: 0
-          name: 'T4 Tungsten Plate'
+          name: '试试 钨板'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 10.0
-          category: '<gold>Tier 4 Materials'
+          category: '<gold>史诗资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_clay_tungsten_casting'
@@ -1243,10 +1243,10 @@ materials:
         - id: 'mat_tungsten_sword_blade'
           item_id: 57
           item_data: 0
-          name: 'T4 Tungsten Sword Blade'
+          name: '史诗 钨剑刃'
           craftable: true
           shaped: false
-          category: '<gold>Tier 4 Materials'
+          category: '<gold>史诗资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_clay_tungsten_casting'
@@ -1265,10 +1265,10 @@ materials:
         - id: 'mat_tungsten_sword_hilt'
           item_id: 280
           item_data: 0
-          name: 'T4 Tungsten Sword Hilt'
+          name: '史诗 钨剑柄'
           craftable: true
           shaped: false
-          category: '<gold>Tier 4 Materials'
+          category: '<gold>史诗资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_clay_tungsten_casting'
@@ -1291,10 +1291,10 @@ materials:
         - id: 'mat_composite_bow_stave'
           item_id: 280
           item_data: 0
-          name: 'T4 Composite Bow Stave'
+          name: '史诗 复合弓木'
           craftable: true
           shaped: false
-          category: '<gold>Tier 4 Materials'
+          category: '<gold>史诗资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_longbow_stave'
@@ -1313,10 +1313,10 @@ materials:
         - id: 'mat_composite_bow_string'
           item_id: 287
           item_data: 0
-          name: 'T4 Composite Bow String'
+          name: '史诗 复合弓弦'
           craftable: true
           shaped: false
-          category: '<gold>Tier 4 Materials'
+          category: '<gold>史诗资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_smithy_resin'
@@ -1331,12 +1331,12 @@ materials:
         - id: 'mat_cannon_wheel'
           item_id: 163
           item_data: 0
-          name: 'T4 Cannon Wheel'
+          name: '史诗 炮轮'
           craftable: true
           shaped: false
           tradeable: true
           tradeValue: 10.0
-          category: '<gold>Tier 3 Materials'
+          category: '<gold>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_milled_lumber'
@@ -1346,12 +1346,12 @@ materials:
         - id: 'mat_cannon_barrel_part'
           item_id: 171
           item_data: 15
-          name: 'T4 Cannon Barrel Part'
+          name: '史诗 炮筒'
           craftable: true
           shaped: true
           tradeable: true
           tradeValue: 10.0
-          category: '<gold>Tier 3 Materials'
+          category: '<gold>稀有资源'
           ingredients:
               - type_id: 0
                 data: 0
@@ -1367,10 +1367,10 @@ materials:
         - id: 'mat_found_civ'
           item_id: 369
           item_data: 0
-          name: 'Founding Civilization Flag'
+          name: '文明之旗'
           craftable: true
           shaped: true
-          category: 'Special'
+          category: '特殊物品'
           components:
               - name: 'FoundCivilization'
           ingredients:
@@ -1397,10 +1397,10 @@ materials:
         - id: 'mat_found_camp'
           item_id: 324
           item_data: 0
-          name: 'Camp'
+          name: '营地'
           craftable: true
           shaped: true
-          category: 'Special'
+          category: '特殊物品'
           components:
               - name: 'FoundCamp'
           ingredients:
@@ -1423,10 +1423,10 @@ materials:
         - id: 'mat_found_warcamp'
           item_id: 7
           item_data: 0
-          name: 'War Camp'
+          name: '战争营地'
           craftable: true
           shaped: true
-          category: 'Special'
+          category: '特殊物品'
           components:
               - name: 'FoundWarCamp'
           ingredients:
@@ -1450,10 +1450,10 @@ materials:
         - id: 'mat_build_cannon'
           item_id: 154
           item_data: 0
-          name: 'War Cannon'
+          name: '战争加农'
           craftable: true
           shaped: true
-          category: 'Special'
+          category: '特殊物品'
           components:
               - name: 'BuildCannon'
               - name: 'NoRightClick'
@@ -1477,10 +1477,10 @@ materials:
         - id: 'mat_wood_sword'
           item_id: 268
           item_data: 0
-          name: 'Training Sword'
+          name: '训练木剑'
           craftable: true
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'Attack'
                 value: '4'
@@ -1499,14 +1499,39 @@ materials:
               - " p "
               - " s "
 
+        - id: 'mat_wood_axe'
+          item_id: 271
+          item_data: 0
+          name: '训练木斧'
+          craftable: true
+          shaped: true
+          category: '<lightgreen>普通装备'
+          components:
+              - name: 'Attack'
+                value: '5'
+              - name: 'NoVanillaDurability'
+              - name: 'DurabilityOnDeath'
+                value: '0.1'
+          ingredients:
+              - type_id: 5
+                data: -1
+                letter: 'p'
+              - type_id: 280
+                data: 0
+                letter: 's'
+          shape:
+              - "ppp"
+              - "psp"
+              - " s "
+
         # Checked 10/8/13
         - id: 'mat_leather_helmet'
           item_id: 298
           item_data: 0
-          name: 'Leather Helmet'
+          name: '训练皮毛'
           craftable: true
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'Defense'
                 value: '2'
@@ -1526,10 +1551,10 @@ materials:
         - id: 'mat_leather_chestplate'
           item_id: 299
           item_data: 0
-          name: 'Leather Jacket'
+          name: '训练皮夹克'
           craftable: true
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'Defense'
                 value: '3'
@@ -1549,10 +1574,10 @@ materials:
         - id: 'mat_leather_leggings'
           item_id: 300
           item_data: 0
-          name: 'Leather Pants'
+          name: '训练皮护腿'
           craftable: true
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'Defense'
                 value: '2'
@@ -1572,10 +1597,10 @@ materials:
         - id: 'mat_leather_Boots'
           item_id: 301
           item_data: 0
-          name: 'Leather Moccasins'
+          name: '训练皮靴'
           craftable: true
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'Defense'
                 value: '1'
@@ -1597,11 +1622,11 @@ materials:
         - id: 'mat_refined_leather_helmet'
           item_id: 298
           item_data: 0
-          name: 'Refined Leather Cap'
+          name: '优质皮革帽'
           craftable: true
           required_techs: 'tech_leather_refinement'
           shaped: true
-          category: '<lightblue>Gear Tier 2'
+          category: '<lightblue>罕见装备'
           components:
               - name: 'Defense'
                 value: '3.5'
@@ -1625,11 +1650,11 @@ materials:
         - id: 'mat_refined_leather_chestplate'
           item_id: 299
           item_data: 0
-          name: 'Refined Leather Chestplate'
+          name: '优质皮胸甲'
           craftable: true
           required_techs: 'tech_leather_refinement'
           shaped: true
-          category: '<lightblue>Gear Tier 2'
+          category: '<lightblue>罕见装备'
           components:
               - name: 'Defense'
                 value: '4.5'
@@ -1653,11 +1678,11 @@ materials:
         - id: 'mat_refined_leather_leggings'
           item_id: 300
           item_data: 0
-          name: 'Refined Leather Leggings'
+          name: '优质皮护腿'
           craftable: true
           required_techs: 'tech_leather_refinement'
           shaped: true
-          category: '<lightblue>Gear Tier 2'
+          category: '<lightblue>罕见装备'
           components:
               - name: 'Defense'
                 value: '3.5'
@@ -1681,11 +1706,11 @@ materials:
         - id: 'mat_refined_leather_boots'
           item_id: 301
           item_data: 0
-          name: 'Refined Leather Moccasins'
+          name: '优质皮靴'
           craftable: true
           required_techs: 'tech_leather_refinement'
           shaped: true
-          category: '<lightblue>Gear Tier 2'
+          category: '<lightblue>罕见装备'
           components:
               - name: 'Defense'
                 value: '2.5'
@@ -1711,11 +1736,11 @@ materials:
         - id: 'mat_hardened_leather_helmet'
           item_id: 298
           item_data: 0
-          name: 'Hardened Leather Cap'
+          name: '硬皮帽'
           craftable: true
           required_techs: 'tech_tanning'
           shaped: true
-          category: '<lightpurple>Gear Tier 3'
+          category: '<lightpurple>稀有装备'
           components:
               - name: 'Defense'
                 value: '4.5'
@@ -1739,11 +1764,11 @@ materials:
         - id: 'mat_hardened_leather_chestplate'
           item_id: 299
           item_data: 0
-          name: 'Hardened Leather Jacket'
+          name: '硬皮甲'
           craftable: true
           required_techs: 'tech_tanning'
           shaped: true
-          category: '<lightpurple>Gear Tier 3'
+          category: '<lightpurple>稀有装备'
           components:
               - name: 'Defense'
                 value: '6.0'
@@ -1767,11 +1792,11 @@ materials:
         - id: 'mat_hardened_leather_leggings'
           item_id: 300
           item_data: 0
-          name: 'Hardened Leather Pants'
+          name: '硬皮护腿'
           craftable: true
           required_techs: 'tech_tanning'
           shaped: true
-          category: '<lightpurple>Gear Tier 3'
+          category: '<lightpurple>稀有装备'
           components:
               - name: 'Defense'
                 value: '4.5'
@@ -1795,11 +1820,11 @@ materials:
         - id: 'mat_hardened_leather_boots'
           item_id: 301
           item_data: 0
-          name: 'Hardened Leather Moccasins'
+          name: '硬皮靴'
           craftable: true
           required_techs: 'tech_tanning'
           shaped: true
-          category: '<lightpurple>Gear Tier 3'
+          category: '<lightpurple>稀有装备'
           components:
               - name: 'Defense'
                 value: '4'
@@ -1825,11 +1850,11 @@ materials:
         - id: 'mat_composite_leather_helmet'
           item_id: 298
           item_data: 0
-          name: 'Composite Leather Cap'
+          name: '复合皮帽'
           craftable: true
           required_techs: 'tech_composites'
           shaped: true
-          category: '<gold>Gear Tier 4'
+          category: '<gold>史诗装备'
           components:
               - name: 'Defense'
                 value: '6.0'
@@ -1853,11 +1878,11 @@ materials:
         - id: 'mat_composite_leather_chestplate'
           item_id: 299
           item_data: 0
-          name: 'Composite Leather Jacket'
+          name: '复合皮甲'
           craftable: true
           required_techs: 'tech_composites'
           shaped: true
-          category: '<gold>Gear Tier 4'
+          category: '<gold>史诗装备'
           components:
               - name: 'Defense'
                 value: '8'
@@ -1881,11 +1906,11 @@ materials:
         - id: 'mat_composite_leather_leggings'
           item_id: 300
           item_data: 0
-          name: 'Composite Leather Pants'
+          name: '复合皮护腿'
           craftable: true
           required_techs: 'tech_composites'
           shaped: true
-          category: '<gold>Gear Tier 4'
+          category: '<gold>史诗装备'
           components:
               - name: 'Defense'
                 value: '6.5'
@@ -1909,11 +1934,11 @@ materials:
         - id: 'mat_composite_leather_boots'
           item_id: 301
           item_data: 0
-          name: 'Composite Leather Moccasins'
+          name: '复合皮靴'
           craftable: true
           required_techs: 'tech_composites'
           shaped: true
-          category: '<gold>Gear Tier 4'
+          category: '<gold>史诗装备'
           components:
               - name: 'Defense'
                 value: '5'
@@ -1939,11 +1964,11 @@ materials:
         - id: 'mat_hunting_bow'
           item_id: 261
           item_data: 0
-          name: 'Hunting Bow'
+          name: '狩猎弓'
           craftable: true
           required_techs: 'tech_archery'
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'RangedAttack'
                 value: '18'
@@ -1966,11 +1991,11 @@ materials:
         - id: 'mat_recurve_bow'
           item_id: 261
           item_data: 0
-          name: 'Recurve Bow'
+          name: '反曲弓'
           craftable: true
           required_techs: 'tech_fletching'
           shaped: true
-          category: '<lightblue>Gear Tier 2'
+          category: '<lightblue>罕见装备'
           components:
               - name: 'RangedAttack'
                 value: '24'
@@ -1995,11 +2020,11 @@ materials:
         - id: 'mat_longbow'
           item_id: 261
           item_data: 0
-          name: 'Longbow'
+          name: '长弓'
           craftable: true
           required_techs: 'tech_tillering'
           shaped: true
-          category: '<lightpurple>Gear Tier 3'
+          category: '<lightpurple>稀有装备'
           components:
               - name: 'RangedAttack'
                 value: '30'
@@ -2024,11 +2049,11 @@ materials:
         - id: 'mat_marksmen_bow'
           item_id: 261
           item_data: 0
-          name: 'Marksmen Bow'
+          name: '射手弓'
           craftable: true
           required_techs: 'tech_laminates'
           shaped: true
-          category: '<gold>Gear Tier 4'
+          category: '<gold>史诗装备'
           components:
               - name: 'RangedAttack'
                 value: '36'
@@ -2055,10 +2080,10 @@ materials:
         - id: 'mat_stone_sword'
           item_id: 272
           item_data: 0
-          name: 'Stone Shank'
+          name: '石剑'
           craftable: true
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'Attack'
                 value: '5'
@@ -2077,17 +2102,42 @@ materials:
               - " c "
               - " s "
 
+        - id: 'mat_stone_axe'
+          item_id: 275
+          item_data: 0
+          name: '石斧'
+          craftable: true
+          shaped: true
+          category: '<lightgreen>普通装备'
+          components:
+              - name: 'Attack'
+                value: '6'
+              - name: 'NoVanillaDurability'
+              - name: 'DurabilityOnDeath'
+                value: '0.1'
+          ingredients:
+              - type_id: 4
+                data: 0
+                letter: 'c'
+              - type_id: 280
+                data: 0
+                letter: 's'
+          shape:
+              - "ccc"
+              - "csc"
+              - " s "
+
 # Iron Gear recipes -------------------------------------------------
 
         # Checked 10/8/13
         - id: 'mat_iron_sword'
           item_id: 267
           item_data: 0
-          name: 'Iron Shortsword'
+          name: '铁质短剑'
           craftable: true
           required_techs: 'tech_metal_casting'
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'Attack'
                 value: '12'
@@ -2106,15 +2156,42 @@ materials:
               - " i "
               - " s "
 
+              # Checked 10/8/13
+        - id: 'mat_iron_axe'
+          item_id: 258
+          item_data: 0
+          name: '铁斧'
+          craftable: true
+          required_techs: 'tech_metal_casting'
+          shaped: true
+          category: '<lightgreen>普通装备'
+          components:
+              - name: 'Attack'
+                value: '14'
+              - name: 'NoVanillaDurability'
+              - name: 'DurabilityOnDeath'
+                value: '0.1'
+          ingredients:
+              - type_id: 265
+                data: 0
+                letter: 'i'
+              - type_id: 280
+                data: 0
+                letter: 's'
+          shape:
+              - "iii"
+              - "isi"
+              - " s "
+
         # Checked 10/8/13
         - id: 'mat_iron_helmet'
           item_id: 306
           item_data: 0
-          name: 'Iron Helmet'
+          name: '铁头盔'
           craftable: true
           required_techs: 'tech_blacksmithing'
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'Defense'
                 value: '0.5'
@@ -2134,11 +2211,11 @@ materials:
         - id: 'mat_iron_chestplate'
           item_id: 307
           item_data: 0
-          name: 'Iron Chestplate'
+          name: '铁胸甲'
           craftable: true
           required_techs: 'tech_blacksmithing'
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'Defense'
                 value: '1.0'
@@ -2158,11 +2235,11 @@ materials:
         - id: 'mat_iron_leggings'
           item_id: 308
           item_data: 0
-          name: 'Iron Leggings'
+          name: '铁护腿'
           craftable: true
           required_techs: 'tech_blacksmithing'
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'Defense'
                 value: '0.5'
@@ -2183,11 +2260,11 @@ materials:
         - id: 'mat_iron_boots'
           item_id: 309
           item_data: 0
-          name: 'Iron Boots'
+          name: '铁足具'
           craftable: true
           required_techs: 'tech_blacksmithing'
           shaped: true
-          category: '<lightgreen>Gear Tier 1'
+          category: '<lightgreen>普通装备'
           components:
               - name: 'Defense'
                 value: '0.5'
@@ -2210,11 +2287,11 @@ materials:
         - id: 'mat_steel_helmet'
           item_id: 302
           item_data: 0
-          name: 'Steel Helmet'
+          name: '钢头盔'
           craftable: true
           required_techs: 'tech_alloys'
           shaped: true
-          category: '<lightblue>Gear Tier 2'
+          category: '<lightblue>罕见装备'
           components:
               - name: 'Defense'
                 value: '2.5'
@@ -2235,11 +2312,11 @@ materials:
         - id: 'mat_steel_boots'
           item_id: 305
           item_data: 0
-          name: 'Steel Assault Boots'
+          name: '钢足具'
           craftable: true
           required_techs: 'tech_alloys'
           shaped: true
-          category: '<lightblue>Gear Tier 2'
+          category: '<lightblue>罕见装备'
           components:
               - name: 'Defense'
                 value: '2'
@@ -2260,11 +2337,11 @@ materials:
         - id: 'mat_steel_chestplate'
           item_id: 303
           item_data: 0
-          name: 'Steel Chestplate'
+          name: '钢胸甲'
           craftable: true
           required_techs: 'tech_alloys'
           shaped: true
-          category: '<lightblue>Gear Tier 2'
+          category: '<lightblue>罕见装备'
           components:
               - name: 'Defense'
                 value: '3.0'
@@ -2285,11 +2362,11 @@ materials:
         - id: 'mat_steel_leggings'
           item_id: 304
           item_data: 0
-          name: 'Steel Leggings'
+          name: '钢护腿'
           craftable: true
           required_techs: 'tech_alloys'
           shaped: true
-          category: '<lightblue>Gear Tier 2'
+          category: '<lightblue>罕见装备'
           components:
               - name: 'Defense'
                 value: '2.5' 
@@ -2310,11 +2387,11 @@ materials:
         - id: 'mat_steel_sword'
           item_id: 267
           item_data: 0
-          name: 'Steel Longsword'
+          name: '钢质长剑'
           craftable: true
           required_techs: 'tech_sword_smithing'
           shaped: true
-          category: '<lightblue>Gear Tier 2'
+          category: '<lightblue>罕见装备'
           components:
               - name: 'Attack'
                 value: '18'
@@ -2335,17 +2412,46 @@ materials:
               - " b "
               - " h "
 
+        # Checked 10/8/13
+        - id: 'mat_steel_axe'
+          item_id: 258
+          item_data: 0
+          name: '钢斧'
+          craftable: true
+          required_techs: 'tech_sword_smithing'
+          shaped: true
+          category: '<lightblue>罕见装备'
+          components:
+              - name: 'Attack'
+                value: '22'
+              - name: 'NoVanillaDurability'
+              - name: 'DurabilityOnDeath'
+                value: '0.1'
+          ingredients:
+              - type_id: 0
+                data: 0
+                custom_id: 'mat_steel_sword_blade'
+                letter: 'b'
+              - type_id: 0
+                data: 0
+                custom_id: 'mat_steel_sword_hilt'
+                letter: 'h'
+          shape:
+              - "bbb"
+              - "bhb"
+              - " h "
+
 ## Carbide steel - -- -                  -----------------------------------------
 
         # Checked 10/8/13
         - id: 'mat_carbide_steel_sword'
           item_id: 283
           item_data: 0
-          name: 'Carbide Steel sword'
+          name: '合金钢剑'
           craftable: true
           required_techs: 'tech_folded_steel'
           shaped: true
-          category: '<lightpurple>Gear Tier 3'
+          category: '<lightpurple>稀有装备'
           components:
               - name: 'Attack'
                 value: '24'
@@ -2367,14 +2473,43 @@ materials:
               - " h "
 
         # Checked 10/8/13
+        - id: 'mat_carbide_steel_axe'
+          item_id: 283
+          item_data: 0
+          name: '合金钢斧'
+          craftable: true
+          required_techs: 'tech_folded_steel'
+          shaped: true
+          category: '<lightpurple>稀有装备'
+          components:
+              - name: 'Attack'
+                value: '28'
+              - name: 'NoVanillaDurability'
+              - name: 'DurabilityOnDeath'
+                value: '0.1'
+          ingredients:
+              - type_id: 0
+                data: 0
+                custom_id: 'mat_carbide_steel_sword_blade'
+                letter: 'b'
+              - type_id: 0
+                data: 0
+                custom_id: 'mat_carbide_steel_sword_hilt'
+                letter: 'h'
+          shape:
+              - "bbb"
+              - "bhb"
+              - " h "
+
+        # Checked 10/8/13
         - id: 'mat_carbide_steel_helmet'
           item_id: 314
           item_data: 0
-          name: 'Carbide Steel Helmet'
+          name: '合金钢头盔'
           craftable: true
           required_techs: 'tech_chemical_bonding'
           shaped: true
-          category: '<lightpurple>Gear Tier 3'
+          category: '<lightpurple>稀有装备'
           components:
               - name: 'Defense'
                 value: '4'
@@ -2395,11 +2530,11 @@ materials:
         - id: 'mat_carbide_steel_chestplate'
           item_id: 315
           item_data: 0
-          name: 'Carbide Steel Chestplate'
+          name: '合金钢胸甲'
           craftable: true
           required_techs: 'tech_chemical_bonding'
           shaped: true
-          category: '<lightpurple>Gear Tier 3'
+          category: '<lightpurple>稀有装备'
           components:
               - name: 'Defense'
                 value: '4.5'
@@ -2420,11 +2555,11 @@ materials:
         - id: 'mat_carbide_steel_leggings'
           item_id: 316
           item_data: 0
-          name: 'Carbide Steel leggings'
+          name: '合金钢护腿'
           craftable: true
           required_techs: 'tech_chemical_bonding'
           shaped: true
-          category: '<lightpurple>Gear Tier 3'
+          category: '<lightpurple>稀有装备'
           components:
               - name: 'Defense'
                 value: '4'
@@ -2445,11 +2580,11 @@ materials:
         - id: 'mat_carbide_steel_boots'
           item_id: 317
           item_data: 0
-          name: 'Carbide Steel Boots'
+          name: '合金钢足具'
           craftable: true
           required_techs: 'tech_chemical_bonding'
           shaped: true
-          category: '<lightpurple>Gear Tier 3'
+          category: '<lightpurple>稀有装备'
           components:
               - name: 'Defense'
                 value: '4'
@@ -2473,11 +2608,11 @@ materials:
         - id: 'mat_tungsten_sword'
           item_id: 276
           item_data: 0
-          name: 'Tungsten Broadsword'
+          name: '钨质巨剑'
           craftable: true
           required_techs: 'tech_tempering'
           shaped: true
-          category: '<gold>Gear Tier 4'
+          category: '<gold>史诗装备'
           components:
               - name: 'Attack'
                 value: '30'
@@ -2497,16 +2632,44 @@ materials:
               - " b "
               - " b "
               - " h "
+          # Checked 10/8/13
+        - id: 'mat_tungsten_axe'
+          item_id: 279
+          item_data: 0
+          name: '钨质板斧'
+          craftable: true
+          required_techs: 'tech_tempering'
+          shaped: true
+          category: '<gold>史诗装备'
+          components:
+              - name: 'Attack'
+                value: '36'
+              - name: 'NoVanillaDurability'
+              - name: 'DurabilityOnDeath'
+                value: '0.1'
+          ingredients:
+              - type_id: 0
+                data: 0
+                custom_id: 'mat_tungsten_sword_blade'
+                letter: 'b'
+              - type_id: 0
+                data: 0
+                custom_id: 'mat_tungsten_sword_hilt'
+                letter: 'h'
+          shape:
+              - "bbb"
+              - "bhb"
+              - " h "
 
         # Checked 10/8/13
         - id: 'mat_tungsten_boots'
           item_id: 313
           item_data: 0
-          name: 'Tungsten Boots'
+          name: '钨质足具'
           craftable: true
           required_techs: 'tech_forging'
           shaped: true
-          category: '<gold>Gear Tier 4'
+          category: '<gold>史诗装备'
           components:
               - name: 'Defense'
                 value: '4.5'
@@ -2527,11 +2690,11 @@ materials:
         - id: 'mat_tungsten_chestplate'
           item_id: 311 
           item_data: 0
-          name: 'Tungsten Chestplate'
+          name: '钨质胸甲'
           craftable: true
           required_techs: 'tech_forging'
           shaped: true
-          category: '<gold>Gear Tier 4'
+          category: '<gold>史诗装备'
           components:
               - name: 'Defense'
                 value: '5'
@@ -2552,11 +2715,11 @@ materials:
         - id: 'mat_tungsten_leggings'
           item_id: 312
           item_data: 0
-          name: 'Tungsten Leggings'
+          name: '钨质护腿'
           craftable: true
           required_techs: 'tech_forging'
           shaped: true
-          category: '<gold>Gear Tier 4'
+          category: '<gold>史诗装备'
           components:
               - name: 'Defense'
                 value: '4.5'
@@ -2577,11 +2740,11 @@ materials:
         - id: 'mat_tungsten_helmet'
           item_id: 310
           item_data: 0
-          name: 'Tungsten Helmet'
+          name: '钨质头盔'
           craftable: true
           required_techs: 'tech_forging'
           shaped: true
-          category: '<gold>Gear Tier 4'
+          category: '<gold>史诗装备'
           components:
               - name: 'Defense'
                 value: '4'
@@ -2604,10 +2767,10 @@ materials:
         - id: 'mat_metallic_crystal_fragment_1'
           item_id: 370
           item_data: 0
-          name: 'Common Metallic Crystal Fragment'
+          name: '普通 金属晶体碎片'
           shaped: false
           craftable: true
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_chromium_ore'
@@ -2620,10 +2783,10 @@ materials:
         - id: 'mat_metallic_crystal_1'
           item_id: 399
           item_data: 0
-          name: 'T1 Common Metallic Crystal'
+          name: '普通 金属晶体'
           shaped: false
           craftable: true
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -2635,10 +2798,10 @@ materials:
         - id: 'mat_metallic_crystal_fragment_2'
           item_id: 370
           item_data: 0
-          name: 'Uncommon Metallic Crystal Fragment'
+          name: '罕见 金属晶体碎片'
           shaped: false
           craftable: true
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_forged_chromium'
@@ -2651,10 +2814,10 @@ materials:
         - id: 'mat_metallic_crystal_2'
           item_id: 399
           item_data: 0
-          name: 'T2 Uncommon Metallic Crystal'
+          name: '罕见 金属晶体'
           shaped: false
           craftable: true
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -2666,10 +2829,10 @@ materials:
         - id: 'mat_metallic_crystal_fragment_3'
           item_id: 370
           item_data: 0
-          name: 'Rare Metallic Crystal Fragment'
+          name: '稀有 金属晶体碎片'
           shaped: false
           craftable: true
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_forged_chromium'
@@ -2682,10 +2845,10 @@ materials:
         - id: 'mat_metallic_crystal_3'
           item_id: 399
           item_data: 0
-          name: 'T3 Rare Metallic Crystal'
+          name: '稀有 金属晶体'
           shaped: false
           craftable: true
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -2697,10 +2860,10 @@ materials:
         - id: 'mat_metallic_crystal_fragment_4'
           item_id: 370
           item_data: 0
-          name: 'Legendary Metallic Crystal Fragment'
+          name: '史诗 金属晶体碎片'
           shaped: false
           craftable: true
-          category: '<gold>Tier 4 Materials'
+          category: '<gold>史诗资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_forged_chromium'
@@ -2713,10 +2876,10 @@ materials:
         - id: 'mat_metallic_crystal_4'
           item_id: 399
           item_data: 0
-          name: 'T4 Legendary Metallic Crystal'
+          name: '史诗 金属晶体'
           shaped: false
           craftable: true
-          category: '<gold>Tier 4 Materials'
+          category: '<gold>史诗资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -2728,12 +2891,12 @@ materials:
         - id: 'mat_ionic_crystal_fragment_1'
           item_id: 377
           item_data: 0
-          name: 'Common Ionic Crystal Fragment'
+          name: '普通 离子晶体碎片'
           shaped: false
           craftable: true
           components:
               - name: 'NoRightClick'
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_tungsten_ore'
@@ -2746,10 +2909,10 @@ materials:
         - id: 'mat_ionic_crystal_1'
           item_id: 378
           item_data: 0
-          name: 'T1 Common Ionic Crystal'
+          name: '普通 离子晶体'
           shaped: false
           craftable: true
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -2762,12 +2925,12 @@ materials:
         - id: 'mat_ionic_crystal_fragment_2'
           item_id: 377
           item_data: 0
-          name: 'Uncommon Ionic Crystal Fragment'
+          name: '罕见 离子晶体碎片'
           shaped: false
           craftable: true
           components:
               - name: 'NoRightClick'
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_forged_tungsten'
@@ -2780,10 +2943,10 @@ materials:
         - id: 'mat_ionic_crystal_2'
           item_id: 378
           item_data: 0
-          name: 'T2 Uncommon Ionic Crystal'
+          name: '罕见 离子晶体'
           shaped: false
           craftable: true
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -2795,12 +2958,12 @@ materials:
         - id: 'mat_ionic_crystal_fragment_3'
           item_id: 377
           item_data: 0
-          name: 'Rare Ionic Crystal Fragment'
+          name: '稀有 离子晶体碎片'
           shaped: false
           craftable: true
           components:
               - name: 'NoRightClick'
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_forged_tungsten'
@@ -2813,10 +2976,10 @@ materials:
         - id: 'mat_ionic_crystal_3'
           item_id: 378
           item_data: 0
-          name: 'T3 Rare Ionic Crystal'
+          name: '稀有 离子晶体'
           shaped: false
           craftable: true
-          category: '<lightpurple>Tier 3 Materials'
+          category: '<lightpurple>稀有资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -2828,12 +2991,12 @@ materials:
         - id: 'mat_ionic_crystal_fragment_4'
           item_id: 377
           item_data: 0
-          name: 'Legendary Ionic Crystal Fragment'
+          name: '史诗 离子晶体碎片'
           shaped: false
           craftable: true
           components:
               - name: 'NoRightClick'
-          category: '<gold>Tier 4 Materials'
+          category: '<gold>史诗资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_forged_tungsten'
@@ -2846,10 +3009,10 @@ materials:
         - id: 'mat_ionic_crystal_4'
           item_id: 378
           item_data: 0
-          name: 'T4 Legendary Ionic Crystal'
+          name: '史诗 离子晶体'
           shaped: false
           craftable: true
-          category: '<gold>Tier 4 Materials'
+          category: '<gold>史诗资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -2861,12 +3024,12 @@ materials:
         - id: 'mat_creeper_egg'
           item_id: 383
           item_data: 50
-          name: 'Creeper Egg'
+          name: '普通 苦力怕蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 10.0
-          category: '<lightgreen>Eggs Tier 1'
+          category: '<lightgreen>普通 蛋'
           ingredients:
               - type_id: 289
                 data: 0
@@ -2883,12 +3046,12 @@ materials:
         - id: 'mat_creeper_egg_2'
           item_id: 383
           item_data: 50
-          name: 'Creeper Egg 2'
+          name: '罕见 苦力怕蛋'
           shaped: true
           tradeable: true
           tradeValue: 500.0
           craftable: true
-          category: '<lightblue>Eggs Tier 2'
+          category: '<lightblue>罕见 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_creeper_egg'
@@ -2906,12 +3069,12 @@ materials:
         - id: 'mat_creeper_egg_3'
           item_id: 383
           item_data: 50
-          name: 'Creeper Egg 3'
+          name: '稀有 苦力怕蛋'
           shaped: true
           tradeable: true
           tradeValue: 2500.0
           craftable: true
-          category: '<lightpurple>Eggs Tier 3'
+          category: '<lightpurple>稀有 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_creeper_egg_2'
@@ -2929,12 +3092,12 @@ materials:
         - id: 'mat_creeper_egg_4'
           item_id: 383
           item_data: 50
-          name: 'Creeper Egg 4'
+          name: '史诗 苦力怕蛋'
           shaped: true
           tradeable: true
           tradeValue: 5000.0
           craftable: true
-          category: '<gold>Eggs Tier 4'
+          category: '<gold>史诗 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_creeper_egg_3'
@@ -2952,12 +3115,12 @@ materials:
         - id: 'mat_skeleton_egg'
           item_id: 383
           item_data: 51
-          name: 'Skeleton Egg'
+          name: '普通 骷髅蛋'
           shaped: true
           tradeable: true
           tradeValue: 10.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 1'
+          category: '<lightgreen>普通 蛋'
           ingredients:
               - type_id: 352
                 data: 0
@@ -2974,12 +3137,12 @@ materials:
         - id: 'mat_skeleton_egg_2'
           item_id: 383
           item_data: 51
-          name: 'Skeleton Egg 2'
+          name: '罕见 骷髅蛋'
           shaped: true
           tradeable: true
           tradeValue: 500.0
           craftable: true
-          category: '<lightblue>Eggs Tier 2'
+          category: '<lightblue>罕见 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_skeleton_egg'
@@ -2997,12 +3160,12 @@ materials:
         - id: 'mat_skeleton_egg_3'
           item_id: 383
           item_data: 51
-          name: 'Skeleton Egg 3'
+          name: '稀有 骷髅蛋'
           shaped: true
           tradeable: true
           tradeValue: 2500.0
           craftable: true
-          category: '<lightpurple>Eggs Tier 3'
+          category: '<lightpurple>稀有 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_skeleton_egg_2'
@@ -3020,12 +3183,12 @@ materials:
         - id: 'mat_skeleton_egg_4'
           item_id: 383
           item_data: 51
-          name: 'Skeleton Egg 4'
+          name: '史诗 骷髅蛋'
           shaped: true
           tradeable: true
           tradeValue: 5000.0
           craftable: true
-          category: '<gold>Eggs Tier 4'
+          category: '<gold>史诗 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_skeleton_egg_3'
@@ -3043,12 +3206,12 @@ materials:
         - id: 'mat_spider_egg'
           item_id: 383
           item_data: 52
-          name: 'Spider Egg'
+          name: '普通 蜘蛛蛋'
           shaped: true
           tradeable: true
           tradeValue: 10.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 1'
+          category: '<lightgreen>普通 蛋'
           ingredients:
               - type_id: 375
                 data: 0
@@ -3065,12 +3228,12 @@ materials:
         - id: 'mat_spider_egg_2'
           item_id: 383
           item_data: 52
-          name: 'Spider Egg 2'
+          name: '罕见 蜘蛛蛋'
           shaped: true
           tradeable: true
           tradeValue: 500.0
           craftable: true
-          category: '<lightblue>Eggs Tier 2'
+          category: '<lightblue>罕见 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_1'
@@ -3088,12 +3251,12 @@ materials:
         - id: 'mat_spider_egg_3'
           item_id: 383
           item_data: 52
-          name: 'Spider Egg 3'
+          name: '稀有 蜘蛛蛋'
           shaped: true
           tradeable: true
           tradeValue: 2500.0
           craftable: true
-          category: '<lightpurple>Eggs Tier 3'
+          category: '<lightpurple>稀有 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_2'
@@ -3111,12 +3274,12 @@ materials:
         - id: 'mat_spider_egg_4'
           item_id: 383
           item_data: 52
-          name: 'Spider Egg 4'
+          name: '史诗 蜘蛛蛋'
           shaped: true
           tradeable: true
           tradeValue: 5000.0
           craftable: true
-          category: '<gold>Eggs Tier 4'
+          category: '<gold>史诗 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_3'
@@ -3134,12 +3297,12 @@ materials:
         - id: 'mat_zombie_egg'
           item_id: 383
           item_data: 54
-          name: 'Zombie Egg'
+          name: '普通 僵尸蛋'
           shaped: true
           tradeable: true
           tradeValue: 10.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 1'
+          category: '<lightgreen>普通 蛋'
           ingredients:
               - type_id: 367
                 data: 0
@@ -3156,12 +3319,12 @@ materials:
         - id: 'mat_zombie_egg_2'
           item_id: 383
           item_data: 54
-          name: 'Zombie Egg 2'
+          name: '罕见 僵尸蛋'
           shaped: true
           tradeable: true
           tradeValue: 500.0
           craftable: true
-          category: '<lightblue>Eggs Tier 2'
+          category: '<lightblue>罕见 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_1'
@@ -3179,12 +3342,12 @@ materials:
         - id: 'mat_zombie_egg_3'
           item_id: 383
           item_data: 54
-          name: 'Zombie Egg 3'
+          name: '稀有 僵尸蛋'
           shaped: true
           tradeable: true
           tradeValue: 2500.0
           craftable: true
-          category: '<lightpurple>Eggs Tier 3'
+          category: '<lightpurple>稀有 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_2'
@@ -3202,12 +3365,12 @@ materials:
         - id: 'mat_zombie_egg_4'
           item_id: 383
           item_data: 54
-          name: 'Zombie Egg 4'
+          name: '史诗 僵尸蛋'
           shaped: true
           tradeable: true
           tradeValue: 5000.0
           craftable: true
-          category: '<gold>Eggs Tier 4'
+          category: '<gold>史诗 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_3'
@@ -3225,12 +3388,12 @@ materials:
         - id: 'mat_slime_egg'
           item_id: 383
           item_data: 55
-          name: 'Slime Egg'
+          name: '普通 史莱姆蛋'
           shaped: true
           tradeable: true
           tradeValue: 10.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 1'
+          category: '<lightgreen>普通 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_vanilla_slime'
@@ -3248,12 +3411,12 @@ materials:
         - id: 'mat_slime_egg_2'
           item_id: 383
           item_data: 55
-          name: 'Slime Egg 2'
+          name: '罕见 史莱姆蛋'
           shaped: true
           tradeable: true
           tradeValue: 500.0
           craftable: true
-          category: '<lightblue>Eggs Tier 2'
+          category: '<lightblue>罕见 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_1'
@@ -3271,12 +3434,12 @@ materials:
         - id: 'mat_slime_egg_3'
           item_id: 383
           item_data: 55
-          name: 'Slime Egg 3'
+          name: '稀有 史莱姆蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 2500.0
-          category: '<lightpurple>Eggs Tier 3'
+          category: '<lightpurple>稀有 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_2'
@@ -3294,12 +3457,12 @@ materials:
         - id: 'mat_slime_egg_4'
           item_id: 383
           item_data: 55
-          name: 'Slime Egg 4'
+          name: '史诗 史莱姆蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 5000.0
-          category: '<gold>Eggs Tier 4'
+          category: '<gold>史诗 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_3'
@@ -3317,12 +3480,12 @@ materials:
         - id: 'mat_enderman_egg'
           item_id: 383
           item_data: 58
-          name: 'Enderman Egg'
+          name: '普通 末影人蛋'
           shaped: true
           tradeable: true
           tradeValue: 10.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 1'
+          category: '<lightgreen>普通 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_ender_pearl'
@@ -3340,12 +3503,12 @@ materials:
         - id: 'mat_enderman_egg_2'
           item_id: 383
           item_data: 58
-          name: 'Enderman Egg 2'
+          name: '罕见 末影人蛋'
           shaped: true
           tradeable: true
           tradeValue: 500.0
           craftable: true
-          category: '<lightblue>Eggs Tier 2'
+          category: '<lightblue>罕见 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_ionic_crystal_1'
@@ -3363,12 +3526,12 @@ materials:
         - id: 'mat_enderman_egg_3'
           item_id: 383
           item_data: 58
-          name: 'Enderman Egg 3'
+          name: '稀有 末影人蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 2500.0
-          category: '<lightpurple>Eggs Tier 3'
+          category: '<lightpurple>稀有 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_ionic_crystal_2'
@@ -3386,12 +3549,12 @@ materials:
         - id: 'mat_enderman_egg_4'
           item_id: 383
           item_data: 58
-          name: 'Enderman Egg 4'
+          name: '史诗 末影人蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 5000.0
-          category: '<gold>Eggs Tier 4'
+          category: '<gold>史诗 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_ionic_crystal_3'
@@ -3411,12 +3574,12 @@ materials:
         - id: 'mat_pig_egg'
           item_id: 383
           item_data: 90
-          name: 'Pig Egg'
+          name: '普通 猪蛋'
           shaped: true
           tradeable: true
           tradeValue: 10.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 1'
+          category: '<lightgreen>普通 蛋'
           ingredients:
               - type_id: 320
                 data: 0
@@ -3433,12 +3596,12 @@ materials:
         - id: 'mat_pig_egg_2'
           item_id: 383
           item_data: 90
-          name: 'Pig Egg 2'
+          name: '罕见 猪蛋'
           shaped: true
           tradeable: true
           tradeValue: 50.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 2'
+          category: '<lightgreen>罕见 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_ionic_crystal_1'
@@ -3456,12 +3619,12 @@ materials:
         - id: 'mat_pig_egg_3'
           item_id: 383
           item_data: 90
-          name: 'Pig Egg 3'
+          name: '稀有 猪蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 500.0
-          category: '<lightgreen>Eggs Tier 3'
+          category: '<lightgreen>稀有 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_ionic_crystal_2'
@@ -3479,12 +3642,12 @@ materials:
         - id: 'mat_pig_egg_4'
           item_id: 383
           item_data: 90
-          name: 'Pig Egg 4'
+          name: '史诗 猪蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 1000.0
-          category: '<lightgreen>Eggs Tier 4'
+          category: '<lightgreen>史诗 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_ionic_crystal_3'
@@ -3502,12 +3665,12 @@ materials:
         - id: 'mat_cow_egg'
           item_id: 383
           item_data: 92
-          name: 'Cow Egg'
+          name: '普通 牛蛋'
           shaped: true
           tradeable: true
           tradeValue: 10.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 1'
+          category: '<lightgreen>普通 蛋'
           ingredients:
               - type_id: 364
                 data: 0
@@ -3524,12 +3687,12 @@ materials:
         - id: 'mat_cow_egg_2'
           item_id: 383
           item_data: 92
-          name: 'Cow Egg 2'
+          name: '罕见 牛蛋'
           shaped: true
           tradeable: true
           tradeValue: 50.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 2'
+          category: '<lightgreen>罕见 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_ionic_crystal_1'
@@ -3547,12 +3710,12 @@ materials:
         - id: 'mat_cow_egg_3'
           item_id: 383
           item_data: 92
-          name: 'Cow Egg 3'
+          name: '稀有 牛蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 500.0
-          category: '<lightgreen>Eggs Tier 3'
+          category: '<lightgreen>稀有 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_ionic_crystal_2'
@@ -3570,12 +3733,12 @@ materials:
         - id: 'mat_cow_egg_4'
           item_id: 383
           item_data: 92
-          name: 'Cow Egg 4'
+          name: '史诗 牛蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 1000.0
-          category: '<lightgreen>Eggs Tier 4'
+          category: '<lightgreen>史诗 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_ionic_crystal_3'
@@ -3593,12 +3756,12 @@ materials:
         - id: 'mat_sheep_egg'
           item_id: 383
           item_data: 91
-          name: 'Sheep Egg'
+          name: '普通 羊蛋'
           shaped: true
           tradeable: true
           tradeValue: 10.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 1'
+          category: '<lightgreen>普通 蛋'
           ingredients:
               - type_id: 424
                 data: 0
@@ -3615,12 +3778,12 @@ materials:
         - id: 'mat_sheep_egg_2'
           item_id: 383
           item_data: 91
-          name: 'Sheep Egg 2'
+          name: '罕见 羊蛋'
           shaped: true
           tradeable: true
           tradeValue: 50.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 2'
+          category: '<lightgreen>罕见 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_1'
@@ -3638,12 +3801,12 @@ materials:
         - id: 'mat_sheep_egg_3'
           item_id: 383
           item_data: 91
-          name: 'Sheep Egg 3'
+          name: '稀有 羊蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 500.0
-          category: '<lightgreen>Eggs Tier 3'
+          category: '<lightgreen>稀有 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_2'
@@ -3661,12 +3824,12 @@ materials:
         - id: 'mat_sheep_egg_4'
           item_id: 383
           item_data: 91
-          name: 'Sheep Egg 4'
+          name: '史诗 羊蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 1000.0
-          category: '<lightgreen>Eggs Tier 4'
+          category: '<lightgreen>史诗 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_3'
@@ -3684,12 +3847,12 @@ materials:
         - id: 'mat_chicken_egg'
           item_id: 383
           item_data: 93
-          name: 'Chicken Egg'
+          name: '普通 鸡蛋'
           shaped: true
           tradeable: true
           tradeValue: 10.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 1'
+          category: '<lightgreen>普通 蛋'
           ingredients:
               - type_id: 366
                 data: 0
@@ -3706,12 +3869,12 @@ materials:
         - id: 'mat_chicken_egg_2'
           item_id: 383
           item_data: 93
-          name: 'Chicken Egg 2'
+          name: '罕见 鸡蛋'
           shaped: true
           tradeable: true
           tradeValue: 50.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 2'
+          category: '<lightgreen>罕见 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_1'
@@ -3729,12 +3892,12 @@ materials:
         - id: 'mat_chicken_egg_3'
           item_id: 383
           item_data: 93
-          name: 'Chicken Egg 3'
+          name: '稀有 鸡蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 500.0
-          category: '<lightgreen>Eggs Tier 3'
+          category: '<lightgreen>稀有 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_2'
@@ -3752,12 +3915,12 @@ materials:
         - id: 'mat_chicken_egg_4'
           item_id: 383
           item_data: 93
-          name: 'Chicken Egg 4'
+          name: '史诗 鸡蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 1000.0
-          category: '<lightgreen>Eggs Tier 4'
+          category: '<lightgreen>史诗 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_3'
@@ -3775,12 +3938,12 @@ materials:
         - id: 'mat_rabbit_egg'
           item_id: 383
           item_data: 101
-          name: 'Rabbit Egg'
+          name: '普通 兔蛋'
           shaped: true
           tradeable: true
           tradeValue: 10.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 1'
+          category: '<lightgreen>普通 蛋'
           ingredients:
               - type_id: 412
                 data: 0
@@ -3797,12 +3960,12 @@ materials:
         - id: 'mat_rabbit_egg_2'
           item_id: 383
           item_data: 101
-          name: 'Rabbit Egg 2'
+          name: '罕见 兔蛋'
           shaped: true
           tradeable: true
           tradeValue: 50.0
           craftable: true
-          category: '<lightgreen>Eggs Tier 2'
+          category: '<lightgreen>罕见 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_1'
@@ -3820,12 +3983,12 @@ materials:
         - id: 'mat_rabbit_egg_3'
           item_id: 383
           item_data: 101
-          name: 'Rabbit Egg 3'
+          name: '稀有 兔蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 500.0
-          category: '<lightgreen>Eggs Tier 3'
+          category: '<lightgreen>稀有 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_2'
@@ -3843,12 +4006,12 @@ materials:
         - id: 'mat_rabbit_egg_4'
           item_id: 383
           item_data: 101
-          name: 'Rabbit Egg 4'
+          name: '史诗 兔蛋'
           shaped: true
           craftable: true
           tradeable: true
           tradeValue: 1000.0
-          category: '<lightgreen>Eggs Tier 4'
+          category: '<lightgreen>史诗 蛋'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_metallic_crystal_3'
@@ -3870,7 +4033,7 @@ materials:
 #          name: 'Clownfish'
 #          shaped: false
 #          craftable: false
-#          category: '<lightgreen>Tier 1 Materials'
+#          category: '<lightgreen>普通资源'
 #          components:
 #              - name: 'RightClickForItem'
 #                custom_id: 'mat_mercury_bath'
@@ -3882,7 +4045,7 @@ materials:
 #          name: 'Pufferfish'
 #          shaped: false
 #          craftable: false
-#          category: '<lightgreen>Tier 1 Materials'
+#          category: '<lightgreen>普通资源'
 #          components:
 #              - name: 'RightClickForItem'
 #                custom_id: 'mat_mercury'
@@ -3891,10 +4054,10 @@ materials:
         - id: 'mat_mercury'
           item_id: 362
           item_data: 0
-          name: 'Mercury'
+          name: '普通 水银'
           shaped: false
           craftable: true
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 41
                 data: 0
@@ -3906,10 +4069,10 @@ materials:
         - id: 'mat_mercury_bath'
           item_id: 368
           item_data: 0
-          name: 'T2 Mercury Bath'
+          name: '罕见 汞'
           shaped: false
           craftable: true
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -3921,10 +4084,10 @@ materials:
         - id: 'mat_industrial_diamond'
           item_id: 264
           item_data: 0
-          name: 'T2 Industrial Diamond'
+          name: '罕见 工业钻石'
           shaped: false
           craftable: true
-          category: '<lightblue>Tier 2 Materials'
+          category: '<lightblue>罕见资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -3936,15 +4099,15 @@ materials:
         - id: 'mat_common_attack_catalyst'
           item_id: 340
           item_data: 0
-          name: 'Common Attack Catalyst'
+          name: '普通 攻击催化剂'
           craftable: true
           shaped: true
-          category: '<lightgreen>Catalyst Tier 1'
+          category: '<lightgreen>普通催化剂'
           components:
               - name: 'NoRightClick'
               - name: 'Catalyst'
                 enhancement: 'LoreEnhancementAttack'
-                allowed_materials: 'mat_iron_sword, mat_hunting_bow'
+                allowed_materials: 'mat_iron_sword, mat_hunting_bow, mat_iron_axe'
                 chance: '50'
                 amount: '1'
           ingredients:
@@ -3967,10 +4130,10 @@ materials:
         - id: 'mat_common_defense_catalyst'
           item_id: 340
           item_data: 0
-          name: 'Common Defense Catalyst'
+          name: '普通 防御催化剂'
           craftable: true
           shaped: true
-          category: '<lightgreen>Catalyst Tier 1'
+          category: '<lightgreen>普通催化剂'
           components:
               - name: 'NoRightClick'
               - name: 'Catalyst'
@@ -4000,15 +4163,15 @@ materials:
         - id: 'mat_uncommon_attack_catalyst'
           item_id: 387
           item_data: 0
-          name: 'Uncommon Attack Catalyst'
+          name: '罕见 攻击催化剂'
           craftable: true
           shaped: true
-          category: '<lightblue>Catalyst Tier 2'
+          category: '<lightblue>罕见催化剂'
           components:
               - name: 'NoRightClick'
               - name: 'Catalyst'
                 enhancement: 'LoreEnhancementAttack'
-                allowed_materials: 'mat_steel_sword, mat_recurve_bow'
+                allowed_materials: 'mat_steel_sword, mat_recurve_bow, mat_steel_axe'
                 chance: '50'
                 amount: '1'
           ingredients:
@@ -4032,10 +4195,10 @@ materials:
         - id: 'mat_uncommon_defense_catalyst'
           item_id: 387
           item_data: 0
-          name: 'Uncommon Defense Catalyst'
+          name: '罕见 防御催化剂'
           craftable: true
           shaped: true
-          category: '<lightblue>Catalyst Tier 2'
+          category: '<lightblue>罕见催化剂'
           components:
               - name: 'NoRightClick'
               - name: 'Catalyst'
@@ -4067,15 +4230,15 @@ materials:
         - id: 'mat_rare_attack_catalyst'
           item_id: 387
           item_data: 0
-          name: 'Rare Attack Catalyst'
+          name: '稀有 攻击催化剂'
           craftable: true
           shaped: true
-          category: '<lightpurple>Catalyst Tier 3'
+          category: '<lightpurple>稀有催化剂'
           components:
               - name: 'NoRightClick'
               - name: 'Catalyst'
                 enhancement: 'LoreEnhancementAttack'
-                allowed_materials: 'mat_carbide_steel_sword, mat_longbow'
+                allowed_materials: 'mat_carbide_steel_sword, mat_longbow, mat_carbide_steel_axe'
                 chance: '50'
                 amount: '1'
           ingredients:
@@ -4099,10 +4262,10 @@ materials:
         - id: 'mat_rare_defense_catalyst'
           item_id: 387
           item_data: 0
-          name: 'Rare Defense Catalyst'
+          name: '稀有 防御催化剂'
           craftable: true
           shaped: true
-          category: '<lightpurple>Catalyst Tier 3'
+          category: '<lightpurple>稀有催化剂'
           components:
               - name: 'NoRightClick'
               - name: 'Catalyst'
@@ -4133,15 +4296,15 @@ materials:
         - id: 'mat_legendary_attack_catalyst'
           item_id: 369
           item_data: 0
-          name: 'Legendary Attack Catalyst'
+          name: '史诗 攻击催化剂'
           craftable: true
           shaped: true
-          category: '<gold>Catalyst Tier 4'
+          category: '<gold>史诗催化剂'
           components:
               - name: 'NoRightClick'              
               - name: 'Catalyst'
                 enhancement: 'LoreEnhancementAttack'
-                allowed_materials: 'mat_tungsten_sword, mat_marksmen_bow'
+                allowed_materials: 'mat_tungsten_sword, mat_marksmen_bow, mat_tungsten_axe'
                 chance: '50'
                 amount: '1'
           ingredients:
@@ -4165,10 +4328,10 @@ materials:
         - id: 'mat_legendary_defense_catalyst'
           item_id: 369
           item_data: 0
-          name: 'Legendary Defense Catalyst'
+          name: '史诗 防御催化剂'
           craftable: true
           shaped: true
-          category: '<gold>Catalyst Tier 4'
+          category: '<gold>史诗催化剂'
           components:
               - name: 'NoRightClick'
               - name: 'Catalyst'
@@ -4199,7 +4362,7 @@ materials:
         - id: 'mat_tutorial_book'
           item_id: 340
           item_data: 0
-          name: 'CivCraft Info'
+          name: '《你的文明》游戏信息'
           craftable: false
           shaped: false
           components:
@@ -4208,7 +4371,7 @@ materials:
         - id: 'mat_vanilla_hopper'
           item_id: 154
           item_data: 0
-          name: 'Hopper'
+          name: '漏斗'
           craftable: true
           shaped: true
           vanilla: false
@@ -4217,7 +4380,7 @@ materials:
               - name: 'AllowBlockPlace'
           ingredients:
               - type_id: 0
-                custom_id: 'mat_steel_ingot'
+                custom_id: 'mat_carbide_steel_ingot'
                 data: 0
                 letter: 's'
               - type_id: 54
@@ -4231,10 +4394,10 @@ materials:
         - id: 'mat_ender_pearl'
           item_id: 368
           item_data: 0
-          name: 'Ender Pearl'
+          name: '末影珍珠'
           craftable: false
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           components:
               - name: 'NoRightClick'
           ingredients:
@@ -4246,10 +4409,10 @@ materials:
         - id: 'mat_vanilla_slime'
           item_id: 341
           item_data: 0
-          name: 'T1 SlimeBall'
+          name: '普通 史莱姆球'
           craftable: true
           shaped: false
-          category: '<lightgreen>Tier 1 Materials'
+          category: '<lightgreen>普通资源'
           ingredients:
               - type_id: 0
                 custom_id: 'mat_refined_sugar'
@@ -4262,7 +4425,7 @@ materials:
         - id: 'mat_vanilla_sticky_piston'
           item_id: 29
           item_data: 0
-          name: 'Sticky Piston'
+          name: '黏性活塞'
           craftable: true
           vanilla: true
           shaped: true
@@ -4282,7 +4445,7 @@ materials:
         - id: 'mat_vanilla_magma_cream'
           item_id: 378
           item_data: 0
-          name: 'Magma Cream'
+          name: '岩浆膏'
           craftable: true
           vanilla: true
           shaped: false
@@ -4298,7 +4461,7 @@ materials:
         - id: 'mat_vanilla_lead'
           item_id: 420
           item_data: 0
-          name: 'Lead'
+          name: '拴绳'
           craftable: true
           vanilla: true
           shaped: true
@@ -4319,10 +4482,10 @@ materials:
         - id: 'mat_vanilla_stone_pickaxe'
           item_id: 274
           item_data: 0
-          name: 'Stone Pickaxe'
+          name: '石镐'
           craftable: true
           shaped: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4343,10 +4506,10 @@ materials:
         - id: 'mat_vanilla_iron_pickaxe'
           item_id: 257
           item_data: 0
-          name: 'Iron Pickaxe'
+          name: '铁镐'
           craftable: true
           shaped: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4367,10 +4530,10 @@ materials:
         - id: 'mat_vanilla_gold_pickaxe'
           item_id: 285
           item_data: 0
-          name: 'Gold Pickaxe'
+          name: '金稿'
           craftable: true
           shaped: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4391,10 +4554,10 @@ materials:
         - id: 'mat_vanilla_diamond_pickaxe'
           item_id: 278
           item_data: 0
-          name: 'Diamond Pickaxe'
+          name: '钻石稿'
           craftable: true
           shaped: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4415,10 +4578,10 @@ materials:
         - id: 'mat_vanilla_iron_shovel'
           item_id: 256
           item_data: 0
-          name: 'Iron Shovel'
+          name: '铁锹'
           craftable: true
           shaped: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4439,10 +4602,10 @@ materials:
         - id: 'mat_vanilla_gold_shovel'
           item_id: 284
           item_data: 0
-          name: 'Gold Shovel'
+          name: '金锹'
           craftable: true
           shaped: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4463,10 +4626,10 @@ materials:
         - id: 'mat_vanilla_diamond_shovel'
           item_id: 277
           item_data: 0
-          name: 'Diamond Shovel'
+          name: '钻石锹'
           craftable: true
           shaped: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4486,10 +4649,10 @@ materials:
         - id: 'mat_vanilla_iron_axe'
           item_id: 258
           item_data: 0
-          name: 'Iron Axe'
+          name: '铁斧'
           craftable: true
           shaped: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4510,10 +4673,10 @@ materials:
         - id: 'mat_vanilla_gold_axe'
           item_id: 286
           item_data: 0
-          name: 'Gold Axe'
+          name: '金斧'
           craftable: true
           shaped: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4534,10 +4697,10 @@ materials:
         - id: 'mat_vanilla_diamond_axe'
           item_id: 279
           item_data: 0
-          name: 'Diamond Axe'
+          name: '钻石斧'
           craftable: true
           shaped: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4558,11 +4721,11 @@ materials:
         - id: 'mat_vanilla_iron_hoe'
           item_id: 292
           item_data: 0
-          name: 'Iron Hoe'
+          name: '铁锄'
           craftable: true
           shaped: true
           vanilla: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4583,11 +4746,11 @@ materials:
         - id: 'mat_vanilla_gold_hoe'
           item_id: 294
           item_data: 0
-          name: 'Gold Hoe'
+          name: '金锄'
           craftable: true
           shaped: true
           vanilla: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4608,11 +4771,11 @@ materials:
         - id: 'mat_vanilla_diamond_hoe'
           item_id: 293
           item_data: 0
-          name: 'Diamond Hoe'
+          name: '钻石锄'
           craftable: true
           shaped: true
           vanilla: true
-          category: '<blue>Tools'
+          category: '<blue>工具'
           components:
               - name: 'Attack'
                 value: '0.5'
@@ -4633,7 +4796,7 @@ materials:
         - id: 'mat_vanilla_dispenser'
           item_id: 23
           item_data: 0
-          name: 'Dispenser'
+          name: '发射器'
           craftable: true
           vanilla: true
           shaped: true
@@ -4677,7 +4840,7 @@ materials:
         - id: 'mat_vanilla_ender_chest'
           item_id: 130
           item_data: 0
-          name: 'Ender Chest'
+          name: '末影箱'
           craftable: true
           shaped: true
           vanilla: false         
@@ -4704,7 +4867,7 @@ materials:
         - id: 'mat_pond_scum'
           item_id: 351
           item_data: 2
-          name: 'Pond Scum'
+          name: '绿藻'
           shaped: true
           craftable: false
           shiny: false
@@ -4717,7 +4880,7 @@ materials:
         - id: 'mat_tangled_string'
           item_id: 30
           item_data: 0
-          name: 'Tangled String'
+          name: '绳结'
           shaped: true
           craftable: false
           shiny: false
@@ -4730,7 +4893,7 @@ materials:
         - id: 'mat_seaweed'
           item_id: 31
           item_data: 1
-          name: 'Seaweed'
+          name: '海带'
           shaped: true
           craftable: false
           shiny: false
@@ -4743,7 +4906,7 @@ materials:
         - id: 'mat_minnows'
           item_id: 362
           item_data: 0
-          name: 'Minnows'
+          name: '鲦鱼'
           shaped: true
           craftable: false
           shiny: false
@@ -4756,7 +4919,7 @@ materials:
         - id: 'mat_tadpole'
           item_id: 375
           item_data: 0
-          name: 'Tadpole'
+          name: '蝌蚪'
           shaped: true
           craftable: false
           shiny: false
@@ -4769,364 +4932,364 @@ materials:
         - id: 'mat_fish_brown_trout'
           item_id: 349
           item_data: 0
-          name: 'Brown Trout'
+          name: '布朗鳟鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 5.0
-          category: '<lightgreen>Fish Tier 1'
+          category: '<lightgreen>普通鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_brook_trout'
           item_id: 349
           item_data: 1
-          name: 'Brook Trout'
+          name: '鳟鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 10.0
-          category: '<lightblue>Fish Tier 2'
+          category: '<lightblue>罕见鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_cutthroat_trout'
           item_id: 349
           item_data: 1
-          name: 'Cutthroat Trout'
+          name: '美洲鲑鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 250.0
-          category: '<lightpurple>Fish Tier 3'
+          category: '<lightpurple>稀有鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_rainbow_trout'
           item_id: 349
           item_data: 1
-          name: 'Rainbow Trout'
+          name: '虹鳟鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 2500.0
-          category: '<gold>Fish Tier 4'
+          category: '<gold>史诗鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_atlantic_striped_bass'
           item_id: 350
           item_data: 0
-          name: 'Atlantic Striped Bass'
+          name: '大西洋鲈鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 5.0
-          category: '<lightgreen>Fish Tier 1'
+          category: '<lightgreen>普通鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_pacific_ocean_perch'
           item_id: 349
           item_data: 1
-          name: 'Pacific Ocean Perch'
+          name: '太平洋海鲈'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 10.0
-          category: '<lightblue>Fish Tier 2'
+          category: '<lightblue>罕见鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_acadian_redfish'
           item_id: 349
           item_data: 2
-          name: 'Acadian Redfish'
+          name: '阿卡迪亚鲑鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 250.0
-          category: '<lightpurple>Fish Tier 3'
+          category: '<lightpurple>稀有鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_widow_rockfish'
           item_id: 349
           item_data: 0
-          name: 'Widow Rockfish'
+          name: '寡妇岩鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 2500.0
-          category: '<gold>Fish Tier 4'
+          category: '<gold>史诗鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_atlantic_surfclam'
           item_id: 353
           item_data: 0
-          name: 'Atlantic Surf Clam'
+          name: '大西洋蛤蜊'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 5.0
-          category: '<lightgreen>Fish Tier 1'
+          category: '<lightgreen>普通鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_ocean_quahog'
           item_id: 289
           item_data: 0
-          name: 'Ocean Quahog'
+          name: '海蛤'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 10.0
-          category: '<lightblue>Fish Tier 2'
+          category: '<lightblue>罕见鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_northern_quahog'
           item_id: 337
           item_data: 0
-          name: 'Northern Quahog'
+          name: '北圆蛤'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 250.0
-          category: '<lightpurple>Fish Tier 3'
+          category: '<lightpurple>稀有鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_geoduck'
           item_id: 414
           item_data: 0
-          name: 'Geoduck'
+          name: '象拔蚌'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 2500.0
-          category: '<gold>Fish Tier 4'
+          category: '<gold>史诗鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_atlantic_cod'
           item_id: 350
           item_data: 0
-          name: 'Atlantic Cod'
+          name: '大西洋鳕鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 5.0
-          category: '<lightgreen>Fish Tier 1'
+          category: '<lightgreen>普通鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_pacific_cod'
           item_id: 349
           item_data: 1
-          name: 'Pacific Cod'
+          name: '太平洋鳕鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 10.0
-          category: '<lightblue>Fish Tier 2'
+          category: '<lightblue>罕见鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_lingcod'
           item_id: 350
           item_data: 1
-          name: 'Lingcod'
+          name: '蛇鳕'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 250.0
-          category: '<lightpurple>Fish Tier 3'
+          category: '<lightpurple>稀有鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_sablefish'
           item_id: 349
           item_data: 0
-          name: 'Sablefish'
+          name: '银鳕鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 2500.0
-          category: '<gold>Fish Tier 4'
+          category: '<gold>史诗鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_arrowtooth_flounder'
           item_id: 349
           item_data: 3
-          name: 'Arrowtooth Flounder'
+          name: '箭齿鲽'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 5.0
-          category: '<lightgreen>Fish Tier 1'
+          category: '<lightgreen>普通鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_summer_flounder'
           item_id: 349
           item_data: 3
-          name: 'Summer Flounder'
+          name: '牙鲆'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 10.0
-          category: '<lightblue>Fish Tier 2'
+          category: '<lightblue>罕见鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_winter_flounder'
           item_id: 349
           item_data: 3
-          name: 'Winter Flounder'
+          name: '冬季比目鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 250.0
-          category: '<lightpurple>Fish Tier 3'
+          category: '<lightpurple>稀有鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_yellowtail_flounder'
           item_id: 349
           item_data: 3
-          name: 'Yellowtail Flounder'
+          name: '黄盖鲽'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 2500.0
-          category: '<gold>Fish Tier 4'
+          category: '<gold>史诗鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_gag_grouper'
           item_id: 349
           item_data: 1
-          name: 'Gag Grouper'
+          name: '石斑鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 5.0
-          category: '<lightgreen>Fish Tier 1'
+          category: '<lightgreen>普通鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_red_grouper'
           item_id: 349
           item_data: 2
-          name: 'Red Grouper'
+          name: '红石斑鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 10.0
-          category: '<lightblue>Fish Tier 2'
+          category: '<lightblue>罕见鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_black_sea_bass'
           item_id: 349
           item_data: 0
-          name: 'Black Sea Bass'
+          name: '黑鲈鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 250.0
-          category: '<lightpurple>Fish Tier 3'
+          category: '<lightpurple>稀有鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_wreckfish'
           item_id: 350
           item_data: 0
-          name: 'Wreckfish'
+          name: '多锯鲈鱼'
           shaped: true
           craftable: false
           shiny: true
           tradeable: true
           tradeValue: 2500.0
-          category: '<gold>Fish Tier 4'
+          category: '<gold>史诗鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_fish'
           item_id: 349
           item_data: 0
-          name: 'Fish'
+          name: '小鱼'
           shaped: true
           craftable: false
           shiny: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightgreen>Fish Tier 1'
+          category: '<lightgreen>普通鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_salmon'
           item_id: 349
           item_data: 1
-          name: 'Salmon'
+          name: '鲑鱼'
           shaped: true
           craftable: false
           shiny: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightgreen>Fish Tier 1'
+          category: '<lightgreen>普通鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_clownfish'
           item_id: 349
           item_data: 2
-          name: 'Clownfish'
+          name: '小丑鱼'
           shaped: true
           craftable: false
           shiny: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightgreen>Fish Tier 1'
+          category: '<lightgreen>普通鱼类'
           components:
               - name: 'NoRightClick'
 
         - id: 'mat_fish_pufferfish'
           item_id: 349
           item_data: 3
-          name: 'Pufferfish'
+          name: '河豚'
           shaped: true
           craftable: false
           shiny: false
           tradeable: true
           tradeValue: 5.0
-          category: '<lightgreen>Fish Tier 1'
+          category: '<lightgreen>普通鱼类'
           components:
               - name: 'NoRightClick'
 
