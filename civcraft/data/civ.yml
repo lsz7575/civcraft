@@ -135,7 +135,7 @@ ore_rates:
 end_conditions:
     - id: 'end_culture'
       class: 'EndConditionCulture'
-      name: 'Cultural'
+      name: '文化'
       culture_level: '10'
       towns: '3'
       wonders: '1'
@@ -143,7 +143,7 @@ end_conditions:
 
     - id: 'end_conquest'
       class: 'EndConditionConquest'
-      name: 'Conquest'
+      name: '征服'
       percent_captured: '0.75'
       percent_captured_with_wonder: '0.50'
       days_after_start: '28'
@@ -151,12 +151,12 @@ end_conditions:
     
     - id: 'end_science'
       class: 'EndConditionScience'
-      name: 'Scientific'
+      name: '科学'
       tech: 'tech_enlightenment'
       days_held: '21'
     
     - id: 'end_diplomacy'
       class: 'EndConditionDiplomacy'
-      name: 'Diplomatic'
+      name: '外交'
       vote_cooldown_hours: '24'
       days_held: '21'
