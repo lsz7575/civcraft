@@ -53,10 +53,10 @@ espionage:
 
 missions:
     - id: 'spy_investigate_town'
-      name: 'Investigate Town'
+      name: '探索城镇'
       description: 
-          - 'Provides a report on the target town.'
-          - 'Includes information of strategic value.'
+          - '提供目标城镇的资料'
+          - '包含战略价值的信息.'
       cost: 10000.0
       range: 0.0
       cooldown: 2.0
@@ -67,10 +67,10 @@ missions:
       slot: 8
 
     - id: 'spy_steal_treasury'
-      name: 'Steal Treasury'
+      name: '窃取宝藏'
       description: 
-          - 'Steals 20% of the target towns treasury.'
-          - 'Must be within 50 blocks of town hall.'
+          - '窃取目标城镇 20% 的宝藏.'
+          - '必须在市政厅 50 个方块之内.'
       cost: 20000.0
       range: 50.0
       cooldown: 2.0
@@ -81,11 +81,11 @@ missions:
       slot: 7
 
     - id: 'spy_incite_riots'
-      name: 'Incite Riots'
+      name: '引起骚动'
       description: 
-          - 'Incites riots in the target town.'
-          - 'Causes between 5 to 10 unhappiness for 3 days.'
-          - 'Must be within 50 blocks of town hall.'
+          - '引起目标城镇骚动.'
+          - '使居民在 3 天内有 5 - 10个不满.'
+          - '必须在市政厅 50 个方块之内.'
       cost: 50000.0
       range: 50.0
       cooldown: 2.0
@@ -93,13 +93,13 @@ missions:
       compromise_chance: 0.25
       intel: 2
       length: 120
-      slot: -6
+      slot: 6
 
     - id: 'spy_subvert_government'
-      name: 'Subvert Government'
+      name: '推翻政府'
       description: 
-          - 'Plunges the target civiliztion into Anarchy.'
-          - 'Must be within 100 blocks of the capitol town hall.'
+          - '将目标文明带入无政府状态.'
+          - '必须在首都市政厅 100 个方块之内.'
       cost: 200000.0
       range: 100.0
       cooldown: 2.0
@@ -108,10 +108,11 @@ missions:
       slot: 5
 
     - id: 'spy_poison_granary'
-      name: 'Poison Granary'
+      name: '粮仓投毒'
       description: 
-          - 'Causes all cottages to starve for 3 to 50 hours. 5% chances to bring famine and down level all cottages.'
-          - 'Must be within 50 blocks of a granary.'
+          - '所有的村舍停粮 3 - 50 个小时.'
+          - '5% 带来饥荒以及村舍等级下降.'
+          - '必须在粮仓 50 个方块之内.'
       range: 50.0
       cost: 20000.0
       cooldown: 2.0
@@ -122,10 +123,10 @@ missions:
       slot: 4
 
     - id: 'spy_pirate'
-      name: 'Pirate'
+      name: '海盗计划'
       description: 
-          - 'Allows you to take a goodie from an enemy trade outpost.'
-          - 'Must be within 10 blocks of the trade outpost.'
+          - '允许你从敌人的贸易前哨取走物资.'
+          - '必须在贸易前哨 10 个方块之内.'
       range: 10.0
       cost: 5000.0
       cooldown: 2.0
@@ -136,10 +137,10 @@ missions:
       slot: 3
  
     - id: 'spy_sabotage'
-      name: 'Sabotage'
+      name: '建筑破坏'
       description: 
-          - 'Destroyes the nearest structure.'
-          - 'Must be within 50 blocks.'
+          - '破坏附近的建筑.'
+          - '必须在 50 个方块之内.'
       cost: 250000.0
       range: 50.0
       cooldown: 2.0
@@ -150,10 +151,10 @@ missions:
       slot: 2
     
     - id: 'spy_sabotage_wonder'
-      name: 'Sabotage'
+      name: '奇迹破坏'
       description: 
-          - 'Destroyes the nearest wonder.'
-          - 'Must be within 50 blocks.'
+          - '破坏附近的奇迹.'
+          - '必须在 50 个方块之内.'
       cost: 500000.0
       range: 50.0
       cooldown: 2.0
@@ -161,4 +162,4 @@ missions:
       compromise_chance: 0.5
       intel: 4
       length: 300
-      slot: -1
+      slot: 1
