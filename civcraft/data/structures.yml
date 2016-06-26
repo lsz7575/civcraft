@@ -111,28 +111,28 @@ mobGrinder:
 ################# Grocer Settings #################
 grocer_levels:
     - level: 1
-      itemName: 'Fish'
+      itemName: '烤鱼'
       itemId: 350
       itemData: 0
       amount: 1
       price: 8.0 
 
     - level: 2
-      itemName: 'Roast Chicken'
+      itemName: '烧鸡'
       itemId: 366
       itemData: 0
       amount: 1
       price: 15.0
 
     - level: 3
-      itemName: 'Cooked Pork'
+      itemName: '烤猪肉'
       itemId: 320
       itemData: 0
       amount: 1
       price: 20.0
  
     - level: 4
-      itemName: 'Golden Carrot'
+      itemName: '金萝卜'
       itemId: 396
       itemData: 0
       amount: 1
@@ -418,61 +418,61 @@ barracks:
 # If the item_id is zero, we then try to find a horse via the horse_id
 # Horses are then configured in 'stable_horses'
 stable_items:
-    - name: 'Horse'
+    - name: '普通马'
       cost: 5000.0
       store_id: 0
       item_id: 0
       horse_id: 1
     
-    - name: 'Trusty Steed'
+    - name: '骏马'
       cost: 10000.0
       store_id: 0
       item_id: 0
       horse_id: 2
 
-    - name: 'Thoroughbred'
+    - name: '极品马'
       cost: 50000.0
       store_id: 0
       item_id: 0
       horse_id: 3
 
-    - name: 'Mule'
+    - name: '马骡'
       cost: 2500.0
       store_id: 1
       item_id: 0
       horse_id: 4
 
-    - name: 'War Horse'
+    - name: '战马'
       cost: 100000.0
       store_id: 0
       item_id: 0
       horse_id: 5
 
-    - name: 'Saddle'
+    - name: '马鞍'
       cost: 2000.0
       store_id: 2
       item_id: 329
       horse_id: 0
 
-    - name: 'Name Tag'
+    - name: '名称标签'
       cost: 10000.0
       store_id: 2
       item_id: 421
       horse_id: 0
 
-    - name: 'Iron Horse Armor'
+    - name: '铁盔甲'
       cost: 20000.0
       store_id: 2
       item_id: 417
       horse_id: 0
 
-    - name: 'Gold Horse Armor'
+    - name: '金盔甲'
       cost: 50000.0
       store_id: 2
       item_id: 418
       horse_id: 0
 
-    - name: 'Diamond Horse Armor'
+    - name: '钻石盔甲'
       cost: 100000.0
       store_id: 2
       item_id: 419
@@ -485,7 +485,7 @@ stable_horses:
       jump: 0.8
       health: 20.0
       variant: 'BROWN'
-      name: 'Horse'
+      name: '普通马'
 
       # Trusty Steed
     - id: 2
@@ -493,7 +493,7 @@ stable_horses:
       jump: 0.8
       health: 30.0
       variant: 'BLACK'
-      name: "Trusty Steed"
+      name: "骏马"
 
       # Thoroughbred
     - id: 3
@@ -501,7 +501,7 @@ stable_horses:
       jump: 0.8
       health: 45.0
       variant: 'WHITE'
-      name: "Thoroughbred"
+      name: "极品马"
 
      # mule
     - id: 4
@@ -510,7 +510,7 @@ stable_horses:
       health: 20.0
       mule: true
       variant: 'BLACK'
-      name: "Mule"
+      name: "马骡"
 
       # War Horse
     - id: 5
@@ -518,7 +518,7 @@ stable_horses:
       jump: 1.0
       health: 53.0
       variant: 'CHESTNUT'
-      name: "War Horse"
+      name: "战马"
 
 ################# Road Settings ######################
 road:
@@ -557,7 +557,7 @@ structures:
   - id: s_townhall
     template: town_hall
     template_y_shift: 0
-    displayName: Town Hall
+    displayName: 市政厅
     require_tech:
     require_upgrade:
     check_event:
@@ -579,9 +579,9 @@ structures:
           value: '25.0'
   
   - id: s_capitol
-    template: capitol
+    template: capitol #XXX misspelt =( but its easier to leave it that way.
     template_y_shift: 0
-    displayName: Capitol
+    displayName: 首都
     require_tech:
     require_upgrade:
     check_event:
@@ -605,7 +605,7 @@ structures:
   - id: s_lighthouse
     template: lighthouse
     template_y_shift: -1
-    displayName: Lighthouse
+    displayName: 灯塔
     require_tech: 'tech_exploration'
     require_structure: 's_shipyard'
     effect_event:
@@ -629,7 +629,7 @@ structures:
   - id: s_museum
     template: museum
     template_y_shift: -1
-    displayName: Museum
+    displayName: 博物馆
     require_tech: 'tech_archaeology'
     require_structure: 
     effect_event:
@@ -653,7 +653,7 @@ structures:
   - id: s_stadium
     template: stadium
     template_y_shift: 0
-    displayName: Stadium
+    displayName: 体育场
     require_tech: 'tech_refrigeration'
     require_structure: 
     effect_event:
@@ -669,15 +669,13 @@ structures:
           type: 'direct'
           attribute: 'UNHAPPINESS'
           value: '-2.0'
-        - name: 'AttributeStatic'
-          type: 'direct'
           attribute: 'HAPPINESS'
           value: '2.0'
 
   - id: ti_hospital
     template: hospital
     template_y_shift: 0
-    displayName: Hospital
+    displayName: 医院
     require_tech: 'tech_biology'
     require_structure: 
     allow_outside_town: false
@@ -694,7 +692,7 @@ structures:
   - id: s_bank
     template: bank
     template_y_shift: 0
-    displayName: Bank
+    displayName: 银行
     require_upgrade:
     require_tech: 'tech_religion' 
     effect_event:
@@ -711,7 +709,7 @@ structures:
   - id: s_trommel
     template: trommel
     template_y_shift: 0
-    displayName: Trommel
+    displayName: 矿石筛
     require_upgrade:
     require_tech: 'tech_mining'
     effect_event: 
@@ -729,7 +727,7 @@ structures:
   - id: ti_fish_hatchery
     template: fish_hatchery
     template_y_shift: 0
-    displayName: Fish Hatchery
+    displayName: 渔场
     require_upgrade:
     require_tech: 'tech_automation'
     effect_event: 
@@ -748,7 +746,7 @@ structures:
   - id: ti_quarry
     template: quarry
     template_y_shift: -30
-    displayName: quarry
+    displayName: 采石场
     require_upgrade:
     require_tech: 'tech_automation'
     effect_event: 
@@ -767,7 +765,7 @@ structures:
   - id: s_mob_grinder
     template: mob_grinder
     template_y_shift: -1
-    displayName: Mob Grinder
+    displayName: 屠宰场
     require_upgrade:
     require_tech: 'tech_advanced_hunting'
     effect_event: 
@@ -785,7 +783,7 @@ structures:
   - id: s_store
     template: store
     template_y_shift: 0
-    displayName: Store
+    displayName: 商店
     require_upgrade:
     require_tech: 'tech_commerce'
     effect_event:
@@ -802,7 +800,7 @@ structures:
   - id: s_library
     template: library
     template_y_shift: 0
-    displayName: Library
+    displayName: 图书馆
     require_upgrade:
     require_tech: 'tech_productivity'
     effect_event:
@@ -828,7 +826,7 @@ structures:
   - id: s_university
     template: university
     template_y_shift: 0
-    displayName: University
+    displayName: 大学
     require_upgrade:
     require_tech: 'tech_education'
     effect_event:
@@ -854,7 +852,7 @@ structures:
   - id: s_school
     template: school
     template_y_shift: -1
-    displayName: Public School
+    displayName: 公立学校
     require_upgrade:
     require_structure: 's_university'
     require_tech: 'tech_scientific_method'
@@ -879,9 +877,9 @@ structures:
           value: '0.01'
 
   - id: s_research_lab
-    template: research_lab
+    template: school
     template_y_shift: 0
-    displayName: Research Lab
+    displayName: 实验室
     require_upgrade:
     require_structure: 's_school'
     require_tech: 'tech_plastics'
@@ -908,7 +906,7 @@ structures:
   - id: s_grocer
     template: grocer
     template_y_shift: 0
-    displayName: Grocer
+    displayName: 杂货店
     require_upgrade:
     require_tech: 'tech_hunting'
     effect_event:
@@ -925,7 +923,7 @@ structures:
   - id: s_blacksmith
     template: blacksmith
     template_y_shift: -2
-    displayName: Blacksmith
+    displayName: 铁匠
     require_upgrade:
     require_tech: 'tech_blacksmithing'
     effect_event:
@@ -942,7 +940,7 @@ structures:
         - name: 'AttributeStatic'
           type: 'direct'
           attribute: 'UNHAPPINESS'
-          value: '3.0'
+          value: '-3.0'
         - name: 'AttributeStatic'
           type: 'direct'
           attribute: 'GROWTH'
@@ -960,7 +958,7 @@ structures:
   - id: s_granary
     template: granary
     template_y_shift: 0
-    displayName: Granary
+    displayName: 粮仓
     require_upgrade:
     require_tech: 'tech_pottery'
     effect_event:
@@ -977,7 +975,7 @@ structures:
   - id: ti_cottage
     template: cottage
     template_y_shift: 0
-    displayName: Cottage
+    displayName: 村舍
     require_upgrade:
     require_tech: 'tech_advanced_masonry'
     effect_event: generate_coins
@@ -1001,7 +999,7 @@ structures:
   - id: s_temple
     template: temple
     template_y_shift: 0
-    displayName: Temple
+    displayName: 寺院
     require_upgrade:
     require_tech: 'tech_priesthood'
     effect_event: temple_Culture
@@ -1028,7 +1026,7 @@ structures:
   - id: s_monument
     template: monument
     template_y_shift: -2
-    displayName: Monument
+    displayName: 纪念碑
     require_upgrade:
     require_tech: 'tech_religion'
     effect_event: generate_culture:400
@@ -1054,7 +1052,7 @@ structures:
   - id: s_shipyard
     template: shipyard
     template_y_shift: -3
-    displayName: Shipyard
+    displayName: 船厂
     require_upgrade:
     require_tech: 'tech_sailing'
     effect_event:
@@ -1077,7 +1075,7 @@ structures:
   - id: ti_mine
     template: mine
     template_y_shift: -6
-    displayName: Mine
+    displayName: 矿厂
     require_upgrade:
     require_tech: 'tech_productivity'
     effect_event: process_mine
@@ -1102,7 +1100,7 @@ structures:
   - id: ti_trade_outpost
     template: trade_outpost
     template_y_shift: 0
-    displayName: Trade Outpost
+    displayName: 贸易前哨
     require_upgrade:
     require_tech: 'tech_trade'
     effect_event:
@@ -1121,7 +1119,7 @@ structures:
   - id: ti_fishing_boat
     template: fishingboats
     template_y_shift: -3
-    displayName: Fishing Boat
+    displayName: 渔船
     require_upgrade:
     require_tech: 'tech_trade'
     require_structure: 's_shipyard'
@@ -1146,7 +1144,7 @@ structures:
   - id: ti_trade_ship
     template: trade_ship
     template_y_shift: -5
-    displayName: Trade Ship
+    displayName: 贸易船
     require_upgrade:
     require_tech: 'tech_exploration'
     require_structure: 's_shipyard'
@@ -1184,7 +1182,7 @@ structures:
   - id: ti_farm
     template: farm
     template_y_shift: -1
-    displayName: Farm
+    displayName: 农场
     require_upgrade:
     require_tech: 'tech_agriculture'
     effect_event:
@@ -1210,7 +1208,7 @@ structures:
   - id: ti_pasture
     template: pasture
     template_y_shift: -2
-    displayName: Pasture
+    displayName: 牧场
     require_upgrade:
     require_tech: 'tech_hunting'
     effect_event:
@@ -1228,7 +1226,7 @@ structures:
   - id: ti_wall
     template: notused
     template_y_shift: 0
-    displayName: Wall
+    displayName: 城墙
     require_upgrade:
     require_tech: 'tech_advanced_masonry' 
     effect_event:
@@ -1247,7 +1245,7 @@ structures:
   - id: ti_fortifiedwall
     template: fortified_wall
     template_y_shift: 0
-    displayName: Fortified Wall
+    displayName: 城墙
     require_upgrade:
     require_tech: 'tech_machinery' 
     effect_event:
@@ -1266,7 +1264,7 @@ structures:
   - id: ti_road
     template: notused
     template_y_shift: 0 
-    displayName: Road
+    displayName: 道路
     require_upgrade:
     require_tech: 'tech_masonry' 
     effect_event:
@@ -1285,7 +1283,7 @@ structures:
   - id: s_arrowship
     template: arrow_ship
     template_y_shift: -5
-    displayName: Arrow Ship
+    displayName: 箭船
     require_upgrade:
     require_tech: 'tech_artillery'
     require_structure: 's_shipyard'
@@ -1306,7 +1304,7 @@ structures:
   - id: s_arrowtower
     template: arrow_tower
     template_y_shift: 0
-    displayName: Arrow Tower
+    displayName: 箭塔
     require_upgrade:
     require_tech: 'tech_artillery'
     effect_event:
@@ -1325,7 +1323,7 @@ structures:
   - id: s_cannonship
     template: cannon_ship
     template_y_shift: -5
-    displayName: Cannon Ship
+    displayName: 炮船
     require_upgrade:
     require_tech: 'tech_advanced_artillery'
     require_structure: 's_shipyard'
@@ -1346,7 +1344,7 @@ structures:
   - id: s_cannontower
     template: cannon_tower
     template_y_shift: 0
-    displayName: Cannon Tower
+    displayName: 炮塔
     require_upgrade:
     require_tech: 'tech_advanced_artillery'
     effect_event:
@@ -1365,7 +1363,7 @@ structures:
   - id: s_teslatower
     template: tesla_tower
     template_y_shift: 0
-    displayName: Tesla Tower
+    displayName: 电报塔
     require_upgrade:
     require_tech: 'tech_electricity'
     effect_event:
@@ -1384,7 +1382,7 @@ structures:
   - id: s_broadcast_tower
     template: broadcast_tower
     template_y_shift: -1
-    displayName: Broadcast Tower
+    displayName: 广播塔
     require_upgrade:
     require_tech: 'tech_radio'
     effect_event:
@@ -1406,7 +1404,7 @@ structures:
   - id: s_scoutship
     template: scout_ship
     template_y_shift: -5
-    displayName: Scout Ship
+    displayName: 侦察船
     require_upgrade:
     require_tech: 'tech_sailing'
     require_structure: 's_shipyard'
@@ -1427,7 +1425,7 @@ structures:
   - id: s_scouttower
     template: scout_tower
     template_y_shift: 0
-    displayName: Scout Tower
+    displayName: 哨塔
     require_upgrade:
     require_tech: 'tech_masonry'
     effect_event:
@@ -1446,7 +1444,7 @@ structures:
   - id: s_barracks
     template: barracks
     template_y_shift: 0
-    displayName: Barracks
+    displayName: 兵营
     require_upgrade:
     require_tech: 'tech_armory'
     effect_event:
@@ -1467,7 +1465,7 @@ structures:
   - id: ti_windmill
     template: windmill
     template_y_shift: 0
-    displayName: Windmill
+    displayName: 风车
     require_upgrade:
     require_tech: 'tech_automation'
     effect_event:
@@ -1485,7 +1483,7 @@ structures:
   - id: s_market
     template: market
     template_y_shift: 0
-    displayName: Market
+    displayName: 市场
     require_upgrade:
     require_tech: 'tech_commerce'
     effect_event:
@@ -1511,7 +1509,7 @@ structures:
   - id: s_stable
     template: stable
     template_y_shift: -2
-    displayName: Stable
+    displayName: 马厩
     require_upgrade:
     require_tech: 'tech_global_trade' 
     effect_event:
