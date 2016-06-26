@@ -1,7 +1,7 @@
-Join the Discussion: http://www.MineTexas.com/forum/
-Need a place to store your stuff? Try building a camp! Camps can be built using materials. See under the 'Special' category in your tutorial book. (/res book)
-Need to know how to craft something? Use '/res book' to get a tutorial book and open the crafting recipe guide!
-It's dangerous to go alone. Building a civilization on your own is hard! Team up other players to make the job easier.
-Use '/civ time' to see when the next war, upkeep, or trade goodie repo time will occur.
-Have more questions? Read the wiki: http://wiki.minetexas.com/index.php/Civcraft_Wiki
-Having trouble with a staff member or player? Report them on the forums! http://www.minetexas.com/forum
+加入我们的官方论坛: http:/bbs.9wanmc.com
+需要一个过夜的地方? 尝试建立一个营地!
+不知道如何合成物品? 使用 '/res book' 来获得游戏指南!
+一个人无法建立大文明, 寻找朋友与朋友一起来建造属于自己的文明
+使用 '/civ time' 来查看下一次战争/维护/贸易的时间.
+还有更多疑问,请访问我们的百科: http://civwiki.9wanmc.com/
+需要帮忙吗? 在论坛里反馈吧! http:/bbs.9wanmc.com
