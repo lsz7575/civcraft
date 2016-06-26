@@ -2,6 +2,7 @@ name: CivCraft
 main: com.avrgaming.civcraft.main.CivCraft
 softdepends: [TitleAPI]
 version: 1.76.5
+author: Netizen539, Ataranlen, Mayomi
 
 commands:
     town:
